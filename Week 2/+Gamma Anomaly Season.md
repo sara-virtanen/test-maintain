@@ -50,6 +50,16 @@ The **+Gamma** Anomaly Season, will take place during the months of January, Feb
 
 Listed below are ways Agents can contribute to their Faction’s victory, and work towards their medal, during this period.
 
+|  | Where | When | Details | Season Points | +Gamma Tokens |
+------------------------------------------------------------
+|+Gamma First Saturdays | In-person First Saturday Events.
+
+Apply to host yours via Fev Games. Registrations are open now for Jan 2026 FS and will close at 24 Dec 2025 23:59 UTC | 3 Jan 2026, 7 Feb 2026, and 7 Mar 2026 | Attend and check in at an onsite IFS event. | Each verified attendant earns their Faction 0.1 Season Point. The total Season Point earned per Faction is capped at 300.
+
+An individual Agent’s Faction is determined at the time the IFS medal is awarded.
+
+Each Agent will only be credited once per month, regardless of how many IFS events they attended that month. | Verified Agents will receive 2,500 +Gamma Tokens, alongside their IFS medal tick, by the end of the month. |
+
 ### +Gamma Anomaly Season Scoring
 
 The final outcome of the **+Gamma** Anomaly Season will be based on the total Season Score accrued by each Faction from all of the above components, and the Faction with the higher final score will claim the Season.
@@ -63,8 +73,6 @@ For more details about how each component will contribute to the Season Score, s
 The Store will feature the +Gamma Supporter, +Gamma C.O.R.E. Supporter, P.A Chapeau, Yuen Ni, and Tycho medals with an updated 2026 design during the Season of +Gamma. Stay tuned!
 
 ![+Gamma: C.O.R.E. Supporter Medal](Images/coresupporter.png) ![+Gamma: Supporter Medal](Images/supporter.png)
-
-+Gamma: C.O.R.E. Supporter & +Gamma: Supporter
 
 -----------------------------------------------------------------------------
 
