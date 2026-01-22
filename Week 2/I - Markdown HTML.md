@@ -13,9 +13,9 @@ In addition, by taking part in some of these Events, Agents have multiple opport
 
 ## **Table of Contents**
 
-[+Gamma Season medal](#season-medal)
-[Event Schedule](#event-schedule)
-[In Game Store](#ingress-store)
+1. [+Gamma Season medal](#season-medal)
+2. [Event Schedule](#event-schedule)
+3. [In Game Store](#ingress-store)
 
 
 ## +Gamma Season medal {#season-medal}
