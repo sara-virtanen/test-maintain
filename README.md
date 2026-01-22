@@ -5,7 +5,7 @@ AT00BY10-3012 Ohjelmistojen ylläpito ja testaus -kurssin viikkopalautukset.
 
 ## Harjoitukset
 
-- [ ] I - [Markdown & HTML](MarkdownHTML/PlusGammaAnomalySeason.md)
+- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html)
 
 - [ ] II - Unit testing
 
