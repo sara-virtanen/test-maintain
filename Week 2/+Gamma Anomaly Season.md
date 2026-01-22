@@ -52,7 +52,7 @@ Listed below are ways Agents can contribute to their Faction’s victory, and wo
 
 | Placeholder | Where | When | Details | Season Points | +Gamma Tokens |
 | --- | --- | --- | --- | --- | --- |
-|+Gamma First Saturdays | In-person First Saturday Events. | 3 Jan 2026,  7 Feb 2026,  and 7 Mar 2026 | Attend and check in at an onsite IFS event. | Each verified attendant earns their Faction 0.1 Season Point. The total Season Point earned per Faction is capped at 300.  *An individual Agent’s Faction is determined at the time the IFS medal is awarded.*  *Each Agent will only be credited once per month, regardless of how many IFS events they attended that month.* | Verified Agents will receive 2,500 +Gamma Tokens, alongside their IFS medal tick, by the end of the month. |
+|+Gamma First Saturdays | In-person First Saturday Events. | 3 Jan 2026, 7 Feb 2026, and 7 Mar 2026 | Attend and check in at an onsite IFS event. | Each verified attendant earns their Faction 0.1 Season Point. The total Season Point earned per Faction is capped at 300. <br><br> *An individual Agent’s Faction is determined at the time the IFS medal is awarded.* <br><br> *Each Agent will only be credited once per month, regardless of how many IFS events they attended that month.* | Verified Agents will receive 2,500 +Gamma Tokens, alongside their IFS medal tick, by the end of the month. |
 
 ### +Gamma Anomaly Season Scoring
 
