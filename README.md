@@ -1,4 +1,15 @@
 # Ohjelmistojen ylläpito ja testaus
-AT00BY10-3012 Ohjelmistojen ylläpito ja testaus 7.1.2026-31.7.2026 -kurssin viikkopalautukset
+AT00BY10-3012 Ohjelmistojen ylläpito ja testaus -kurssin viikkopalautukset.
 
-Tämän repon harjoitusten tekijä on Sara Virtanen
+**Tekijä:** Sara Virtanen
+
+# Kaikki harjoitukset koottuna
+
+I - Markdown HTML
+II - Unit testing
+III - Integration Testing
+IV - UI testing
+V - WEB GUI Testing
+VI - Logging
+VII - Versioning and Licensing
+VIII - Deployment
