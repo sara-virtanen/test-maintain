@@ -64,6 +64,8 @@ The Store will feature the +Gamma Supporter, +Gamma C.O.R.E. Supporter, P.A Chap
 
 ![+Gamma: C.O.R.E. Supporter Medal](Images/coresupporter.png) ![+Gamma: Supporter Medal](Images/supporter.png)
 
++Gamma: C.O.R.E. Supporter & +Gamma: Supporter
+
 -----------------------------------------------------------------------------
 
 Agents, your feedback and counsel have been instrumental and continually guide our tactical approach.
