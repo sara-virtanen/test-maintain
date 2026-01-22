@@ -6,8 +6,8 @@ From January to March, Agents can take part in the ==+Gamma== Anomaly Season, co
 
 In addition, by taking part in some of these Events, Agents have multiple opportunities to earn medals.
 
-* +Gamma Season Medal (3-tiered): Awarded based on participation in Ingress First Saturday events and performance in both Global Campaign and Anomaly battles.
-  Note: The Gold tier is reachable without attending any IFS events, provided performance in the Global Campaign and Anomaly battles is maximized.
+* +Gamma Season Medal (3-tiered): Awarded based on participation in Ingress First Saturday events and performance in both Global Campaign and Anomaly battles.  
+  *Note: The Gold tier is reachable without attending any IFS events, provided performance in the Global Campaign and Anomaly battles is maximized.*
 * Commemorative +Gamma Onsite Medal (single-tiered): Earned simply by participating in any Anomaly battle onsite.
 * Global Campaign Medal (3-tiered): Based solely on performance during the Global Campaign.
 
@@ -18,8 +18,8 @@ In addition, by taking part in some of these Events, Agents have multiple opport
 3. [In Game Store](#ingress-store)
 
 
-## +Gamma Season medal {#season-medal}
+## <a name="season-medal"></a>+Gamma Season medal
 
-## Event Schedule {#event-schedule}
+## <a name="event-schedule"></a>Event Schedule
 
-## Available in the In-game Ingress Store {#ingress-store}
+## <a name="ingress-store"></a>Available in the In-game Ingress Store
