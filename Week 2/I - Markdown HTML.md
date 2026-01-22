@@ -1,6 +1,6 @@
 # Ingress +Gamma Anomaly Season
 
-![+Gamma Anomaly Season](Week 2/Images/GammaAnomalySeason.png)
+![+Gamma Anomaly Season](https://github.com/sara-virtanen/test-maintain/blob/14b120d856caba6e41b05636da5d2903d6fd4bab/Week%202/Images/GammaAnomalySeason.png)
 
 From January to March, Agents can take part in the **+Gamma** Anomaly Season, competing across multiple Events to earn the most Season Points for their Faction.
 
@@ -27,7 +27,7 @@ The **+Gamma** Season medal is a 3-tiered medal:
 * Silver: Unlocked at 3,000 +Gamma Tokens
 * Bronze: Unlocked at 500 +Gamma Tokens
 
-![+Gamma Bronze Season Medal](Week 2/Images/bronze.png) ![+Gamma Silver Season Medal](Week 2/Images/silver.png) ![+Gamma Gold Season Medal](Week 2/Images/gold.png)
+![+Gamma Bronze Season Medal](Week 2/Images/bronze.png) ![+Gamma Silver Season Medal](/Week 2/Images/silver.png) ![+Gamma Gold Season Medal](Week 2/Images/gold.png)
 
 ## <a name="event-schedule"></a>Event Schedule
 
