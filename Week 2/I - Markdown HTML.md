@@ -23,11 +23,17 @@ In addition, by taking part in some of these Events, Agents have multiple opport
 
 The **+Gamma** Season medal is a 3-tiered medal:
 
-* Gold: Unlocked at 7,500 +Gamma Tokens
-* Silver: Unlocked at 3,000 +Gamma Tokens
 * Bronze: Unlocked at 500 +Gamma Tokens
+* Silver: Unlocked at 3,000 +Gamma Tokens
+* Gold: Unlocked at 7,500 +Gamma Tokens
 
 ![+Gamma Bronze Season Medal](Images/bronze.png) ![+Gamma Silver Season Medal](Images/silver.png) ![+Gamma Gold Season Medal](Images/gold.png)
+
+Agents may earn the **+Gamma** medal by accumulating **+Gamma Tokens** through the following means:
+
+*
+*
+*
 
 ## <a name="event-schedule"></a>Event Schedule
 
