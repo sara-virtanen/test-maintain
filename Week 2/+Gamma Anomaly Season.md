@@ -18,6 +18,7 @@ In addition, by taking part in some of these Events, Agents have multiple opport
 2. [Event Schedule](#event-schedule)
 3. [In Game Store](#ingress-store)
 
+-----------------------------------------------------------------------------
 
 ## <a name="season-medal"></a>+Gamma Season medal
 
@@ -31,10 +32,44 @@ The **+Gamma** Season medal is a 3-tiered medal:
 
 Agents may earn the **+Gamma** medal by accumulating **+Gamma Tokens** through the following means:
 
-*
-*
-*
+* In-person First Saturday Events
+  * Earn 2,500 **+Gamma Tokens** per month by attending and checking in with an onsite IFS organizer
+* Global Campaigns
+  * Earn up to 7,000 **+Gamma Tokens** from +Gamma Global Campaign
+* Anomalies
+  * Earn up to 5,000 **+Gamma Tokens** from the Anomaly Campaign at a +Gamma Anomaly event site
+* (Tentatively) Special Events
+
+A **+Gamma Token** Agent Stat will be added to your Agent Profile for the duration of the **+Gamma** Anomaly Season to help you monitor your individual progress.
+
+-----------------------------------------------------------------------------
 
 ## <a name="event-schedule"></a>Event Schedule
 
+The **+Gamma** Anomaly Season, will take place during the months of January, February and March 2026.
+
+Listed below are ways Agents can contribute to their Faction’s victory, and work towards their medal, during this period.
+
+### +Gamma Anomaly Season Scoring
+
+The final outcome of the **+Gamma** Anomaly Season will be based on the total Season Score accrued by each Faction from all of the above components, and the Faction with the higher final score will claim the Season.
+
+For more details about how each component will contribute to the Season Score, see the associated sections for each component.
+
+-----------------------------------------------------------------------------
+
 ## <a name="ingress-store"></a>Available in the In-game Ingress Store
+
+The Store will feature the +Gamma Supporter, +Gamma C.O.R.E. Supporter, P.A Chapeau, Yuen Ni, and Tycho medals with an updated 2026 design during the Season of +Gamma. Stay tuned!
+
+![+Gamma: C.O.R.E. Supporter Medal](Images/coresupporter.png) ![+Gamma: Supporter Medal](Images/supporter.png)
+
+-----------------------------------------------------------------------------
+
+Agents, your feedback and counsel have been instrumental and continually guide our tactical approach.
+
+Remain vigilant. In your pursuits of XM research and missions, strict compliance with local health and security regulations is essential.
+
+For ongoing updates on Ingress field activities and strategic initiatives, refer to our official communication channel routinely. Stay alert, stay ready.
+
+— Ingress
