@@ -2,7 +2,7 @@
 
 ![+Gamma Anomaly Season](https://github.com/sara-virtanen/test-maintain/blob/1d5371bffbeac7ade939d46171fcbb7a662a0e88/Week%202/GammaAnomalySeason.png)
 
-From January to March, Agents can take part in the ==+Gamma== Anomaly Season, competing across multiple Events to earn the most Season Points for their Faction.
+From January to March, Agents can take part in the **+Gamma** Anomaly Season, competing across multiple Events to earn the most Season Points for their Faction.
 
 In addition, by taking part in some of these Events, Agents have multiple opportunities to earn medals.
 
