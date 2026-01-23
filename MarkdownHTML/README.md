@@ -17,8 +17,11 @@ I encountered some limitations of Markdown while formatting the text. Markdown d
 I had to resort to using HTML with my Markdown in a few places to keep the formatting of the page uniform with its origin:
 
 * I used named anchors for linking to section headings inside the page. Markdown syntax left the anchor names visible, and I did not like how it looked. I'm not sure if I managed to use them correctly or if it was a case of GitHub Markdown flavor not working as expected.
+  
   * `<br>## <a name="event-schedule"></a>Event Schedule<br>`
+    
 * I used line breaks to format text inside the table
+  
   * `<br><br>`
 
 ## HTML
