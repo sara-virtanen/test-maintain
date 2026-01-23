@@ -1,6 +1,6 @@
 # Exercise 1 – Markdown & HTML
 
-**Author:** Sara Virtanen
+**Author:** Sara Virtanen  
 **Course:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 
 - [Markdown (markup)](/MarkdownHTML/PlusGammaAnomalySeason.md?plain=1)
