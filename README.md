@@ -1,11 +1,11 @@
 # Ohjelmistojen ylläpito ja testaus
-AT00BY10-3012 Ohjelmistojen ylläpito ja testaus -kurssin viikkopalautukset.
 
+**Kurssi:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 **Tekijä:** Sara Virtanen
 
 ## Harjoitukset
 
-- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html)
+- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html) (2026-23-01)
 
 - [ ] II - Unit testing
 
