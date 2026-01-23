@@ -39,3 +39,7 @@ I uploaded the HTML file both to my *test-maintain* GitHub repo (this one) and m
 The converted and rendered HTML page can be viewed on my [GitHub Pages](https://sara-virtanen.github.io/PlusGammaAnomalySeason).
 
 The images were also uploaded to GitHub Pages to keep the relative paths functional.
+
+-----------------------------------------------------------------------------
+
+Last updated: 2026-01-23
