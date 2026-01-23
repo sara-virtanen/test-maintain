@@ -20,7 +20,7 @@ I had to resort to using HTML with my Markdown in a few places to keep the forma
 
 * I used named anchors for linking to section headings inside the page. Markdown syntax left the anchor names visible, and I did not like how it looked. I'm not sure if I managed to use them correctly or if it was a case of GitHub Markdown flavor not working as expected.
   
-  * `<br>## <a name="event-schedule"></a>Event Schedule<br>`
+  * `## <a name="event-schedule"></a>Event Schedule`
     
 * I used line breaks to format text inside the table
   
