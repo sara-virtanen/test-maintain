@@ -5,7 +5,7 @@
 
 ## Harjoitukset
 
-- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html) (2026-23-01)
+- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md?plain=1) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html) (2026-23-01)
 
 - [ ] II - Unit testing
 
