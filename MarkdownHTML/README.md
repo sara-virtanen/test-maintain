@@ -3,6 +3,7 @@
 **Author:** Sara Virtanen
 
 - [Markdown (markup)](/MarkdownHTML/PlusGammaAnomalySeason.md?plain=1)
+- [Markdown (rendered)](/MarkdownHTML/PlusGammaAnomalySeason.md)
 - [HTML (markup)](/MarkdownHTML/PlusGammaAnomalySeason.html)
 - [HTML (rendered)](https://sara-virtanen.github.io/PlusGammaAnomalySeason)
 
