@@ -84,3 +84,8 @@ For ongoing updates on Ingress field activities and strategic initiatives, refer
 
 — Ingress
 
+-----------------------------------------------------------------------------
+
+This Markdown page was formatted by Sara Virtanen. 
+
+The text and images are © Niantic Spatial, Inc., reproduced here for educational purposes. The original page that was reproduced can be viewed [here](https://ingress.com/news/2026-plusgamma).
