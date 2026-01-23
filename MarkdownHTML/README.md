@@ -3,16 +3,43 @@
 **Author:** Sara Virtanen  
 **Course:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 
+## Tasks
+
+* Choose any topic and create a Markdown document that is easy to read
+* Convert the Markdown document into HTML
+* Optional: Host the HTML on a website
+
+## Completed exercises
+
 - [Markdown (markup)](/MarkdownHTML/PlusGammaAnomalySeason.md?plain=1)
 - [Markdown (rendered)](/MarkdownHTML/PlusGammaAnomalySeason.md)
 - [HTML (markup)](/MarkdownHTML/PlusGammaAnomalySeason.html)
 - [HTML (rendered)](https://sara-virtanen.github.io/PlusGammaAnomalySeason)
 
-## Markdown
+## PlusGammaAnomalySeason.md – Markdown
 
 I chose to complete this exercise by copying the visual appearance of the [+Gamma Anomaly Season Overview](https://ingress.com/news/2026-plusgamma) by Niantic Spatial, the creator of Ingress, a location-based, global mobile game.
 
 I used the Markdown Guide [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) pages to help me in the task.
+
+Markdown elements used:
+
+* Paragraphs
+* Line Breaks
+* Emphasis
+  * Bold
+  * Italic
+* Lists
+  *  Ordered List
+  *  Unordered List
+  *  Nested List
+* Tables
+* Headings
+* Heading IDs
+* Horizontal Rules
+* Links
+* Images
+* HTML
 
 I encountered some limitations of Markdown while formatting the text. Markdown does not support resizing images, centering text or images (or I was unable to find the correct method), and only supports tables of a set grid size. These were minor issues that I overcame by using image editing software to resize the image files and using HTML line breaks to format text inside a table.
 
@@ -28,7 +55,7 @@ I had to resort to using HTML with my Markdown in a few places to keep the forma
   
   * `<br><br>`
 
-## HTML
+## PlusGammaAnomalySeason.html – HTML
 
 I used a search engine to seek for Markdown to HTML converters. 
 
