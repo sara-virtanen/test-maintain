@@ -68,7 +68,9 @@ For more details about how each component will contribute to the Season Score, s
 
 The Store will feature the +Gamma Supporter, +Gamma C.O.R.E. Supporter, P.A Chapeau, Yuen Ni, and Tycho medals with an updated 2026 design during the Season of +Gamma. Stay tuned!
 
-![+Gamma: C.O.R.E. Supporter Medal](Images/coresupporter.png) ![+Gamma: Supporter Medal](Images/supporter.png)
+![+Gamma: Supporter Medal](Images/supporter.png) +Gamma: Supporter Medal (30,800 CMU)
+
+![+Gamma: C.O.R.E. Supporter Medal](Images/coresupporter.png) +Gamma: C.O.R.E. Supporter Medal (30,800 CMU)
 
 -----------------------------------------------------------------------------
 
