@@ -1,6 +1,6 @@
 # Ohjelmistojen ylläpito ja testaus
 
-**Kurssi:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
+**Kurssi:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus  
 **Tekijä:** Sara Virtanen
 
 ## Harjoitukset
