@@ -86,7 +86,7 @@ Importing the module:
 
 `const { add, subtract, multiply, divide } = require("./mylib");`
 
-Running the main program:
+Running the main program in the `src/` directory:
 
 `node main.js`
 
