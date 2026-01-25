@@ -3,19 +3,22 @@
 **Author:** Sara Virtanen  
 **Course:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 
+## Overview
+
+This project contains a small JavaScript utility library, a main program that uses the library, and unit tests written with Mocha and Chai. The purpose is to demonstrate basic module usage and independent unit testing.
+
 ## Tasks
 
-* Write a JavaScript module called `mylib` containing the basic arithmetic operations
-  * Handle division by 0 by throwing an error for 0 as divisor
+* Write a JavaScript module called `mylib` containing basic arithmetic operations
+  * Division by zero must throw an error
 * Write a main program
-  * Import the `mylib.js` module in `main.js`
-  * Use `mylib.js` in `main.js` to confirm that it works
-  * Unit tests should be independent of `main.js`
-* Make a test directory and write Mocha + Chai files in it
-  * Create unit tests for `mylib.js`
-  * Include at least one test per function
+  * Import `mylib.js` in `main.js`
+  * Use the exported functions to verify correct operation
+  * Unit tests must not depend on `main.js`
+* Write unit tests using Mocha and Chai
+  * At least one test per function
   * Include one function that executes before testing and one that runs after testing is completed
-  * Create a unit test which expects an error with 0 as divisor
+  * One test must expect an error when dividing by zero
  
 ## Project folder structure
 
@@ -32,19 +35,40 @@ test-maintain/
     └── .gitignore
 ```
 
+## Prerequisites
+
+* Node.js installed
+* npm available on the command line
+
 ## Setting up the environment
+
+Run the following commands in the directory:
 
 `npm init -y`  
 `npm install --save-dev mocha chai`
+
+### package.json test script
+
+The `package.json` file must include a test script that runs Mocha:
+
+``` 
+{
+  "scripts": {
+    "test": "mocha"
+  }
+}
+```
 
 ## mylib.js
 
 A utility library exporting four basic arithmetic functions:
 
-* add - Returns the sum of two numbers
-* subtract - Returns the difference of two numbers
-* multiply - Returns the product of two numbers
-* divide - Returns the quotient of two numbers (throws error if dividing by zero)
+* add(a, b) - Returns the sum of two numbers
+* subtract(a, b) - Returns the difference of two numbers
+* multiply(a, b) - Returns the product of two numbers
+* divide(a, b) - Returns the quotient of two numbers (throws error if dividing by zero)
+
+Export statement:
 
 `module.exports = {
   add,
@@ -58,20 +82,26 @@ A utility library exporting four basic arithmetic functions:
 
 Demonstrates how to import and use the library functions.
 
+Importing the module  
 `const { add, subtract, multiply, divide } = require("./src/mylib");`
+
+Running the main program:  
+`node main.js`
+
+The program executes the imported functions and outputs the results to the console. This file is not used by the unit tests.
 
 ## mylib.assert.test.js
 
-Unit tests using Mocha and Chai frameworks. Tests verify:
+Unit tests using Mocha and Chai frameworks.
 
 * Addition, subtraction, multiplication work correctly
 * Division works with positive and negative numbers
 * Division by zero throws an error
 
-Run tests:
+Run tests:  
 `npm test`
 
-This executes all tests in the test/ directory using Mocha.
+This executes all tests in the `test/` directory using Mocha.
 
 -----------------------------------------------------------------------------
 
