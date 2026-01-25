@@ -5,9 +5,9 @@
 
 ## Harjoitukset
 
-- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md?plain=1) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html) (2026-23-01)
+- [x] I - [Markdown](MarkdownHTML/PlusGammaAnomalySeason.md?plain=1) & [HTML](MarkdownHTML/PlusGammaAnomalySeason.html) (2026-01-23)
 
-- [ ] II - Unit testing
+- [x] II - [Unit testing](https://github.com/sara-virtanen/test-maintain/tree/main/UnitTesting) (2026-01-25)
 
 - [ ] III - Integration Testing
 
