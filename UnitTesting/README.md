@@ -104,6 +104,8 @@ Run tests:
 
 This executes all tests in the `test/` directory using Mocha.
 
+![npm test](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/6a88620e03e34c3bf27d6511d44a4f3c1b0064bf/Images/Unit_Testing.jpg)
+
 -----------------------------------------------------------------------------
 
 Last updated: 2026-01-25
