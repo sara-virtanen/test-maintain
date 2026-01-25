@@ -46,6 +46,14 @@ A utility library exporting four basic arithmetic functions:
 * multiply - Returns the product of two numbers
 * divide - Returns the quotient of two numbers (throws error if dividing by zero)
 
+`module.exports = {
+  add,
+  subtract,
+  multiply,
+  divide,
+};
+`
+
 ## main.js
 
 Demonstrates how to import and use the library functions.
