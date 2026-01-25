@@ -17,6 +17,8 @@ describe("mylib Arithmetic Operations", function () {
     console.log("Completed mylib Arithmetic Operations Tests.");
   });
 
+  // Tests for add, subtract, multiply, divide functions
+
   describe("add()", function () {
     it("should return the sum of two numbers", function () {
       expect(add(3, 5)).to.equal(8);
@@ -43,6 +45,8 @@ describe("mylib Arithmetic Operations", function () {
       expect(divide(20, 4)).to.equal(5);
       expect(divide(-15, 3)).to.equal(-5);
     });
+
+    // Special test case for division by zero
 
     it("should throw an error when dividing by zero", function () {
       expect(() => divide(10, 0)).to.throw("Division by zero is not allowed.");
