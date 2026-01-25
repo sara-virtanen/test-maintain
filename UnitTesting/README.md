@@ -83,7 +83,7 @@ Export statement:
 Demonstrates how to import and use the library functions.
 
 Importing the module  
-`const { add, subtract, multiply, divide } = require("./src/mylib");`
+`const { add, subtract, multiply, divide } = require("./mylib");`
 
 Running the main program:  
 `node main.js`
