@@ -82,10 +82,12 @@ Export statement:
 
 Demonstrates how to import and use the library functions.
 
-Importing the module  
+Importing the module:
+
 `const { add, subtract, multiply, divide } = require("./mylib");`
 
-Running the main program:  
+Running the main program:
+
 `node main.js`
 
 The program executes the imported functions and outputs the results to the console. This file is not used by the unit tests.
@@ -98,7 +100,8 @@ Unit tests using Mocha and Chai frameworks.
 * Division works with positive and negative numbers
 * Division by zero throws an error
 
-Run tests:  
+Run tests:
+
 `npm test`
 
 This executes all tests in the `test/` directory using Mocha.
