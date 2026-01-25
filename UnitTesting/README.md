@@ -42,7 +42,7 @@ test-maintain/
 
 ## How I set up the environment
 
-I ran the following commands in the `UnitTesting\` directory:
+I ran the following commands in the `UnitTesting/` directory:
 
 `npm init -y`  
 `npm install --save-dev mocha chai`
