@@ -75,8 +75,7 @@ Export statement:
   subtract,
   multiply,
   divide,
-};
-`
+};`
 
 ## main.js
 
@@ -96,8 +95,7 @@ The program executes the imported functions and outputs the results to the conso
 
 Unit tests using Mocha and Chai frameworks.
 
-* Addition, subtraction, multiplication work correctly
-* Division works with positive and negative numbers
+* Addition, subtraction, multiplication and division work correctly
 * Division by zero throws an error
 
 Run tests:
