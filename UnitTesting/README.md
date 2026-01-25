@@ -34,14 +34,36 @@ test-maintain/
 
 ## Setting up the environment
 
-`npm init -y`
+`npm init -y`  
 `npm install --save-dev mocha chai`
 
 ## mylib.js
 
+A utility library exporting four basic arithmetic functions:
+
+* add - Returns the sum of two numbers
+* subtract - Returns the difference of two numbers
+* multiply - Returns the product of two numbers
+* divide - Returns the quotient of two numbers (throws error if dividing by zero)
+
 ## main.js
 
+Demonstrates how to import and use the library functions.
+
+`const { add, subtract, multiply, divide } = require("./src/mylib");`
+
 ## mylib.assert.test.js
+
+Unit tests using Mocha and Chai frameworks. Tests verify:
+
+* Addition, subtraction, multiplication work correctly
+* Division works with positive and negative numbers
+* Division by zero throws an error
+
+Run tests:
+`npm test`
+
+This executes all tests in the test/ directory using Mocha.
 
 -----------------------------------------------------------------------------
 
