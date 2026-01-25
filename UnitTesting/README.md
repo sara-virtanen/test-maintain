@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project contains a small JavaScript utility library, a main program that uses the library, and unit tests written with Mocha and Chai. The purpose is to demonstrate basic module usage and independent unit testing.
+This project contains a small JavaScript utility library, a main program that uses the library, and unit tests written with Mocha and Chai. The purpose is to demonstrate unit testing.
 
 ## Tasks
 
