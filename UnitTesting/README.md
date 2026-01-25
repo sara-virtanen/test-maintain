@@ -40,9 +40,9 @@ test-maintain/
 * Node.js installed
 * npm available on the command line
 
-## Setting up the environment
+## How I set up the environment
 
-Run the following commands in the directory:
+I ran the following commands in the `UnitTesting\` directory:
 
 `npm init -y`  
 `npm install --save-dev mocha chai`
