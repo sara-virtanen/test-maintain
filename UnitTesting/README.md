@@ -5,14 +5,14 @@
 
 ## Tasks
 
-* Write a JavaScript module called mylib containing the basic arithmetic operations
+* Write a JavaScript module called `mylib` containing the basic arithmetic operations
   * Handle division by 0 by throwing an error for 0 as divisor
 * Write a main program
-  * Import the mylib module in the main program
-  * Use the mylib module in the main program to confirm that it works
-  * Unit tests should be independent of the main program
+  * Import the `mylib.js` module in `main.js`
+  * Use `mylib.js` in `main.js` to confirm that it works
+  * Unit tests should be independent of `main.js`
 * Make a test directory and write Mocha + Chai files in it
-  * Create unit tests for mylib module
+  * Create unit tests for `mylib.js`
   * Include at least one test per function
   * Include one function that executes before testing and one that runs after testing is completed
   * Create a unit test which expects an error with 0 as divisor
