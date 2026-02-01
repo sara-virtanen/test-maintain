@@ -9,7 +9,7 @@
 
 - [x] II - [Unit testing](https://github.com/sara-virtanen/test-maintain/tree/main/UnitTesting) (2026-01-25)
 
-- [ ] III - Integration Testing
+- [x] III - [Integration Testing](https://github.com/sara-virtanen/test-maintain/tree/main/HexRGB) (2026-02-02)
 
 - [ ] IV - UI testing
 
