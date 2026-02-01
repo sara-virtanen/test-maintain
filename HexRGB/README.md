@@ -18,7 +18,6 @@ The goal of this exercise is to build and test a simple REST API using Express.
 The API must convert a hexadecimal color value into its RGB representation.
 The assignment focuses on writing both unit and integration tests and verifying the API manually using a REST client such as Postman.
 
----
 
 ## Project Folder Structure
 
@@ -35,14 +34,12 @@ HexRGB/
     └── README.md
 ```
 
----
 
 ## Prerequisites
 
 - Node.js installed
 - npm available on the command line
 
----
 
 ## How I Set Up the Environment
 
@@ -66,7 +63,6 @@ I added a test script so Mocha runs automatically:
 }
 ```
 
----
 
 ## hexToRgb.js
 
@@ -82,8 +78,6 @@ Example return value:
 { "r": 255, "g": 87, "b": 51 }
 ```
 
----
-
 ## routes.js
 
 Defines the REST API route:
@@ -96,7 +90,6 @@ GET /hex-to-rgb/:hex
 - Returns JSON on success
 - Returns HTTP 400 with an error message on invalid input
 
----
 
 ## index.js
 
@@ -111,7 +104,6 @@ Run the server manually with:
 node src/index.js
 ```
 
----
 
 ## Unit Tests (unit.test.js)
 
@@ -133,7 +125,6 @@ Run all tests:
 npm test
 ```
 
----
 
 ## Integration Tests (integration.test.js)
 
@@ -150,7 +141,6 @@ The tests cover:
 
 These tests import the Express `app` directly without starting the server.
 
----
 
 ## Postman Testing
 
