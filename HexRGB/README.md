@@ -158,6 +158,8 @@ Expected output:
 { "r": 255, "g": 87, "b": 51 }
 ```
 
+![Postman RBG](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/3e42803318545f26d568e93fc533eb18ed459de8/Images/Postman_RGB_GET.jpg)
+
 ### Invalid request
 
 ```
@@ -172,14 +174,14 @@ Expected output:
 
 I included screenshots of both requests in my submission.
 
----
+![Postman Invalid](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/3e42803318545f26d568e93fc533eb18ed459de8/Images/Postman_GET_Invalid.jpg)
 
 ## Test Results
 
 Running `npm test` executes both unit and integration tests.  
 All tests passed successfully.
 
-I included a screenshot of the full test output in my submission.
+![Tests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/3e42803318545f26d568e93fc533eb18ed459de8/Images/hexrgb_unit_integration_mocha.jpg)
 
 ---
 
