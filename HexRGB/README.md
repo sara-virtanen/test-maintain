@@ -176,12 +176,39 @@ I included screenshots of both requests in my submission.
 
 ![Postman Invalid](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/3e42803318545f26d568e93fc533eb18ed459de8/Images/Postman_GET_Invalid.jpg)
 
+### Invalid request
+
+```
+GET http://localhost:3000/hex-to-rgb/
+```
+
+Expected output:
+
+```json
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Error</title>
+</head>
+<body>
+    <pre>Cannot GET /hex-to-rgb/</pre>
+</body>
+</html>
+```
+
+![Postman Invalid](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/f74d4ed448b128942edf9f895effb9308badbdfc/Images/GET_404.jpg)
+
 ## Test Results
 
 Running `npm test` executes both unit and integration tests.  
 All tests passed successfully.
 
 ![Tests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/3e42803318545f26d568e93fc533eb18ed459de8/Images/hexrgb_unit_integration_mocha.jpg)
+
+##JSDoc HTML
+
+I generated an [HTML web page](https://sara-virtanen.github.io/docs/index.html) of the JSDoc in my files.
 
 ---
 
