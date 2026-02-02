@@ -184,7 +184,7 @@ GET http://localhost:3000/hex-to-rgb/
 
 Expected output:
 
-```json
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -206,7 +206,7 @@ All tests passed successfully.
 
 ![Tests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/3e42803318545f26d568e93fc533eb18ed459de8/Images/hexrgb_unit_integration_mocha.jpg)
 
-##JSDoc HTML
+## JSDoc HTML
 
 I generated an [HTML web page](https://sara-virtanen.github.io/docs/index.html) of the JSDoc in my files.
 
