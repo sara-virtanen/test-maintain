@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Node.js package lock file
+package-lock.json
+
+# History files
+.history
+
+# JSDoc config file
+jsdoc.json
+
+#JSDoc output directory
+docs/
