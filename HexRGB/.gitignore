@@ -6,3 +6,9 @@ package-lock.json
 
 # History files
 .history
+
+# JSDoc config file
+jsdoc.json
+
+#JSDoc output directory
+docs/

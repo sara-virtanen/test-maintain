@@ -8,10 +8,18 @@
  */
 
 /**
+ * Represents an RGB color.
+ * @typedef {Object} RGB
+ * @property {number} r - Red component (0–255)
+ * @property {number} g - Green component (0–255)
+ * @property {number} b - Blue component (0–255)
+ */
+
+/**
  * Converts a hex color string to an RGB object.
  *
  * @param {string} hex - A 6-character hex string, with or without '#'.
- * @returns {{r: number, g: number, b: number}} An object containing red, green, and blue values.
+ * @returns {RGB} An object containing red, green, and blue values.
  * @throws {Error} If the hex string is invalid or not a string.
  */
 function hexToRgb(hex) {
