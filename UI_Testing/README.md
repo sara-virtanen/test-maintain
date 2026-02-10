@@ -49,7 +49,7 @@ Testing and editing the UI manually was straightforward, I've done this in the p
 ### Actions Performed
 - Set network throttling to **Fast 4G**  
 - Enabled 4 × CPU slowdown  
-- Reloaded the page
+- Hard reloaded the page
 - Interacted with page elements
 - Observed delays  
 
@@ -59,7 +59,7 @@ Testing and editing the UI manually was straightforward, I've done this in the p
 ![Network Throttling](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/bdd7412e7b1abe84fd5f2605e4d873fa17d66dbf/Images/UI_Testing/iPhonePerformance.jpg)
 
 ### Notes & Findings
-Throttling the CPU slowed the page down. The figure reflected on the Largest Contenful Paint (LCP) is good here, but in my other tests the result was not always this good.
+Throttling the CPU slowed the page down. The figure reflected on the Largest Contentful Paint (LCP) is good here, but in my other tests the result was not always this good.
 
 ### **3. Performance Recording**
 
@@ -90,9 +90,9 @@ Throttling the CPU slowed the page down. The figure reflected on the Largest Con
 ### Notes & Findings
 This was the most interesting and telling part of the testing. Observing how the page loads and what it loads revealed the main factors affecting the load time of the page, and why the page rendering and drawing feels so sluggish.  
 
-I used hard reloads (CTRL + Shift + R) to see the real time it takes for the page to load without having cached elements. It consistently took 400 to over 600 ms for the slowest JavaScript files on the page to load. These were Substack scripts, which are responsible for loading third-party code. They bloat the network requests and slow the page down. There slow JavaScript was mainly related to tracking, analytics and ads. This is a major source of bloat on the modern Internet because all of the aforementioned features are important for commercial web pages.
+I used hard reloads (CTRL + Shift + R) to see the real time it takes for the page to load without having cached elements. It consistently took 400 to over 600 ms for the slowest JavaScript files on the page to load. These were Substack scripts, which are responsible for loading third-party code. They bloat the network requests and slow the page down. The slow JavaScript was mainly related to tracking, analytics and ads. This is a major source of bloat on the modern Internet because all of the aforementioned features are important for commercial web pages.
 
-I used the AI tool to see how it would analyze the web page and its network requests. Its main findings were that the LCP is slow and that there is high main thread activity from third-party scripts. The AI assistant's suggestion for fixing the load times was:  
+I used the integrated DevTools AI to see how it would analyze the web page and its network requests. Its main findings were that the LCP is slow and that there is high main thread activity from third-party scripts. The AI assistant's suggestion for fixing the load times was:  
 > reducing and deferring the loading of third-party code can help prioritize your page's content and improve load performance
 
 
