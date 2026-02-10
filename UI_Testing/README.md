@@ -93,10 +93,11 @@ This was the most interesting and telling part of the testing. Observing how the
 I used hard reloads (CTRL + Shift + R) to see the real time it takes for the page to load without having cached elements. It consistently took 400 to over 600 ms for the slowest JavaScript files on the page to load. These were Substack scripts, which are responsible for loading third-party code. They bloat the network requests and slow the page down. The slow JavaScript was mainly related to tracking, analytics and ads. This is a major source of bloat on the modern Internet because all of the aforementioned features are important for commercial web pages.
 
 I used the integrated DevTools AI to see how it would analyze the web page and its network requests. Its main findings were that the LCP is slow and that there is high main thread activity from third-party scripts. The AI assistant's suggestion for fixing the load times was:  
-> reducing and deferring the loading of third-party code can help prioritize your page's content and improve load performance
+> reducing and deferring the loading of third-party code can help prioritize your page's content and improve load performance  
 
+I also ran the web page through [DebugBear](https://www.debugbear.com/). Here are the recommendations for optimization according to the DebugBear page speed report overview.  
 
-
+![DebugBear Analysis](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/58addc1f28125f96edb9bc9876826da78d10e637/Images/UI_Testing/DebugBearRecs.jpg)  
 
 # **Task 2 – Selenium WebDriver Testing**
 
