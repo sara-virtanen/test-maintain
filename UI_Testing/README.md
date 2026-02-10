@@ -52,7 +52,8 @@ Testing and editing the UI manually was straightforward, I've done this in the p
 - Observed delays  
 
 ### Screenshots
-**Performance with throttling active**
+**Performance with throttling active**  
+
 ![Network Throttling](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/bdd7412e7b1abe84fd5f2605e4d873fa17d66dbf/Images/UI_Testing/iPhonePerformance.jpg)
 
 ### Notes & Findings
