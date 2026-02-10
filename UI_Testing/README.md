@@ -120,15 +120,6 @@ The test suite includes:
 - HEX → RGB conversion tests  
 - UI element visibility tests  
 
-### Key Realization During Testing
-
-A critical insight emerged:
-
-> **Invalid input in HTML5 `<input type="number">` fields is blocked by the browser before the form is submitted.**  
-> Therefore, Selenium tests must verify *browser‑side validation*, not backend output.
-
-This changed how the tests were written and led to more accurate, meaningful UI tests.
-
 
 ## **3. Screenshots of Selenium Tests in Action**
 
@@ -146,14 +137,10 @@ This changed how the tests were written and led to more accurate, meaningful UI 
 
 ### Running the server
 
-node server.js
-Code
 
 
 ### Running Selenium tests
 
-pytest -v
-Code
 
 
 ### Taking screenshots
@@ -163,4 +150,4 @@ Code
 
 ---
 
-**Last updated:** 2026‑02‑10
+**Last updated:** 2026‑02‑11
