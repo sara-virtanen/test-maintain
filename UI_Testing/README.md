@@ -12,7 +12,7 @@ This exercise consists of two tasks:
 
 ## **Task 1 – Developer Tool Testing**
 
-## **1. Device Emulation (Mobile)**
+### **1. Device Emulation (Mobile)**
 
 ### Actions Performed
 - Opened Chrome DevTools  
@@ -33,7 +33,7 @@ This exercise consists of two tasks:
 (Add your own observations here.)
 
 
-## **2. Network Throttling**
+### **2. Network Throttling**
 
 ### Actions Performed
 - Set throttling to **Slow 3G**  
@@ -48,7 +48,7 @@ This exercise consists of two tasks:
 (Add your own observations here.)
 
 
-## **3. CPU Throttling**
+### **3. CPU Throttling**
 
 ### Actions Performed
 - Enabled 4× CPU slowdown  
@@ -62,7 +62,7 @@ This exercise consists of two tasks:
 (Add your own observations here.)
 
 
-## **4. Performance Recording**
+### **4. Performance Recording**
 
 ### Actions Performed
 - Started a performance recording  
@@ -76,7 +76,7 @@ This exercise consists of two tasks:
 (Add your own observations here.)
 
 
-## **5. DOM Inspection**
+### **5. DOM Inspection**
 
 ### Actions Performed
 - Inspected cookie banner  
