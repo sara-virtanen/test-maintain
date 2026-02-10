@@ -66,7 +66,7 @@ Throttling the CPU slowed the page down. The figure reflected on the Largest Con
 ### Actions Performed
 - Throttling still active
 - Started a performance recording  
-- Reloaded the page  
+- Hard reloaded the page  
 - Captured layout, scripting, and rendering metrics  
 
 ### Screenshots
