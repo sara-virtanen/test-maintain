@@ -13,9 +13,9 @@ This exercise consists of two tasks:
 
 # **Task 1 – Developer Tool Testing**
 
-### **1. Device Emulation (Mobile)**
-
 I chose the web page [Sugarologie](https://www.sugarologie.com), a web site focused on science-based baking instructions and recipes.
+
+### **1. Device Emulation (Mobile)**
 
 ### Actions Performed
 - Opened Chrome DevTools  
