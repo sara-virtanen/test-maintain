@@ -13,7 +13,9 @@ This exercise consists of two tasks:
 
 # **Task 1 – Developer Tool Testing**
 
-I chose the web page [Sugarologie](https://www.sugarologie.com), a web site focused on science-based baking instructions and recipes.
+I chose the web page [Sugarologie](https://www.sugarologie.com), a web site focused on science-based baking instructions and recipes.  
+
+The web page is built on [Webflow](https://webflow.com), which is an AI-powered "Website Experience Platform" that allows users to design, build, and launch fully custom, responsive websites visually, without writing code. This means that there is an underlying framework that likely makes the web page clunky and slightly slow by design.
 
 ### **1. Device Emulation (Mobile)**
 
@@ -77,12 +79,21 @@ Throttling the CPU slowed the page down. The figure reflected on the Largest Con
 
 ![Web Page Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/WebPagePerf.jpg)  
 
+**Web Page Network Requests**
 
 ![Web Page Network Requests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/WebPageNetwork.jpg)  
+
+**AI Analysis of Network Requests**
+
 ![Web Page AI Analysis](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/AIPerfAnalysis.jpg)  
 
 ### Notes & Findings
-This was the most interesting and telling part of the testing. Observing how the page loads and what it loads revealed the main factors affecting the load time of the page, and why the page rendering feels so sluggish.
+This was the most interesting and telling part of the testing. Observing how the page loads and what it loads revealed the main factors affecting the load time of the page, and why the page rendering and drawing feels so sluggish.  
+
+I used hard reloads (CTRL + Shift + R) to see the real time it takes for the page to load without having cached elements. It consistently took 400 to over 600 ms for the slowest JavaScript files on the page to load. These were Substack scripts, which are responsible for loading third-party code. They bloat the network requests and slow the page down. There slow JavaScript was mainly related to tracking, analytics and ads. This is a major source of bloat on the modern Internet because all of the aforementioned features are important for commercial web pages.
+
+I used the AI tool to see how it would analyze the web page and its network requests. Its main findings were that the LCP is slow and that there is high main thread activity from third-party scripts. The AI assistant's suggestion for fixing the load times was:  
+> reducing and deferring the loading of third-party code can help prioritize your page's content and improve load performance
 
 
 
