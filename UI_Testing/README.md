@@ -10,6 +10,7 @@ This exercise consists of two tasks:
 - **Task 1:** Testing a website using browser developer tools  
 - **Task 2:** Testing a website with Selenium WebDriver  
 
+
 ## **Task 1 – Developer Tool Testing**
 
 ### **1. Device Emulation (Mobile)**
