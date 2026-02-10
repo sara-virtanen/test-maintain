@@ -15,7 +15,7 @@ This exercise consists of two tasks:
 
 I chose the web page [Sugarologie](https://www.sugarologie.com), a web site focused on science-based baking instructions and recipes.  
 
-The web page is built on [Webflow](https://webflow.com), which is an AI-powered "Website Experience Platform" that allows users to design, build, and launch fully custom, responsive websites visually, without writing code. This means that there is an underlying framework that likely makes the web page clunky and slightly slow by design.
+Sugarologie is built on [Webflow](https://webflow.com), which is an AI-powered "Website Experience Platform" that allows users to design, build, and launch fully custom, responsive websites visually, without writing code. This means that there is an underlying framework that likely makes the web page clunky and slightly slow by design.
 
 ### **1. Device Emulation (Mobile)**
 
