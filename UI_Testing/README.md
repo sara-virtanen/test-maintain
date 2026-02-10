@@ -3,8 +3,6 @@
 **Author:** Sara Virtanen  
 **Course:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 
----
-
 # Overview
 
 This exercise consists of two major tasks:
