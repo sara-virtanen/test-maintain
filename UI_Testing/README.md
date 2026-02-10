@@ -5,30 +5,29 @@
 
 ## Overview
 
-This exercise consists of two major tasks:
+This exercise consists of two tasks:
 
 - **Task 1:** Testing a website using browser developer tools  
 - **Task 2:** Testing a website with Selenium WebDriver  
-
-The goal of this exercise is to explore practical UI testing techniques, understand browser‑level behavior, and document findings clearly.  
-
 
 ## **Task 1 – Developer Tool Testing**
 
 ## **1. Device Emulation (Mobile)**
 
 ### Actions Performed
-- Opened Chrome DevTools
-- Toggled device toolbar
+- Opened Chrome DevTools  
+- Toggled device toolbar  
 - Tested mobile dimensions (iPhone 14 Pro Max)  
-- Observed layout changes, responsive behavior and navigation
+- Observed layout changes, responsive behavior and navigation  
 - Changed page texts  
 
 ### Screenshots
-- *Mobile view:*  
-  `![Mobile View](Images/mobile_view_placeholder.jpg)`
-- *Tablet view:*  
-  `![Tablet View](Images/tablet_view_placeholder.jpg)`
+- *iPhone front page*  
+  `![iPhone view](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneRegular.png)`
+- *Edited iPhone front page*  
+  `![Edited iPhone view](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneEdited.png)`
+- *iPhone UI Testing*  
+  `![iPhone UI Testing](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneUITest.jpg)`
 
 ### Notes & Findings
 (Add your own observations here.)
@@ -93,6 +92,24 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 
 ## **Task 2 – Selenium WebDriver Testing**
 
+## Prerequisite
+
+- Node.js installed
+- Python 3.x installed (I have 3.13) & correctly configured to PATH
+
+## Setting Up The Virtual Environment
+
+Inside the directory, I used Git Bash to run:
+
+```
+python3 -m venv selenium-env
+source selenium-env/Scripts/activate
+pip install --upgrade pip
+pip install selenium webdriver-manager pytest
+npm init -y
+npm install express
+```
+
 ## **1. Overview of the Tested Application**
 
 I created a simple UI Testing Playground website with:
@@ -133,13 +150,14 @@ The test suite includes:
 
 ## **5. Instructions for Running & Testing**
 
-### Running the server
+### Starting the server
 
-
+```node server.js```
 
 ### Running Selenium tests
 
-
+In a new terminal window:
+```pytest -v```
 
 ### Taking screenshots
 - Use PAUSE delays in tests  
