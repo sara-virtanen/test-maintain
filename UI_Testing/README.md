@@ -15,6 +15,8 @@ This exercise consists of two tasks:
 
 ### **1. Device Emulation (Mobile)**
 
+I chose the web page [Sugarologie](https://www.sugarologie.com), a web site focused on science-based baking instructions and recipes.
+
 ### Actions Performed
 - Opened Chrome DevTools  
 - Toggled device toolbar  
