@@ -45,7 +45,7 @@ Testing and editing the UI manually was straightforward, I've done this in the p
 ### **2. Network & CPU Throttling**
 
 ### Actions Performed
-- Set throttling to **Fast 4G**  
+- Set network throttling to **Fast 4G**  
 - Enabled 4 × CPU slowdown  
 - Reloaded the page
 - Interacted with page elements
@@ -56,20 +56,21 @@ Testing and editing the UI manually was straightforward, I've done this in the p
 ![Network Throttling](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/bdd7412e7b1abe84fd5f2605e4d873fa17d66dbf/Images/UI_Testing/iPhonePerformance.jpg)
 
 ### Notes & Findings
-Throttling the CPU slowed the loading down quite a bit. The figure reflected on the Largest Contenful Paint (LCP) is good here, but in my other tests the result was not always this great.
+Throttling the CPU slowed the page down. The figure reflected on the Largest Contenful Paint (LCP) is good here, but in my other tests the result was not always this good.
 
 ### **3. Performance Recording**
 
 ### Actions Performed
-- Throttling settings remain active
+- Throttling still active
 - Started a performance recording  
 - Reloaded the page  
 - Captured layout, scripting, and rendering metrics  
 
 ### Screenshots
-![Performance Recording](Images/perf_record_placeholder.jpg)
-![Performance Recording](Images/perf_record_placeholder.jpg)
-![Performance Recording](Images/perf_record_placeholder.jpg)
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/iPhonePerf.jpg)
+![Web Page Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/WebPagePerf.jpg)
+![Web Page Network Requests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/WebPageNetwork.jpg)
+![Web Page AI Analysis](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/AIPerfAnalysis.jpg)
 
 ### Notes & Findings
 This was the most interesting and telling part of the testing. Observing how the page loads and what it loads revealed the main factors affecting the load time of the page, and why the page rendering feels so sluggish.
