@@ -95,7 +95,7 @@ I used hard reloads (CTRL + Shift + R) to see the real time it takes for the pag
 I used the integrated DevTools AI to see how it would analyze the web page and its network requests. Its main findings were that the LCP is slow and that there is high main thread activity from third-party scripts. The AI assistant's suggestion for fixing the load times was:  
 > reducing and deferring the loading of third-party code can help prioritize your page's content and improve load performance  
 
-I also ran the web page through [DebugBear](https://www.debugbear.com/). Here are the recommendations for optimization according to the DebugBear page speed report overview.  
+I also ran the web page through [DebugBear](https://www.debugbear.com/test/website-speed). Here are the recommendations for optimization according to the DebugBear website speed test.  
 
 ![DebugBear Analysis](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/58addc1f28125f96edb9bc9876826da78d10e637/Images/UI_Testing/DebugBearRecs.jpg)  
 
