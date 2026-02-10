@@ -91,7 +91,7 @@ This exercise consists of two tasks:
 (Add your own observations here.)
 
 
-## **Task 2 – Selenium WebDriver Testing**
+# **Task 2 – Selenium WebDriver Testing**
 
 ## Prerequisite
 
