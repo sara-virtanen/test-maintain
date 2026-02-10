@@ -14,11 +14,8 @@ This exercise consists of two major tasks:
 
 The goal of this exercise is to explore practical UI testing techniques, understand browser‑level behavior, and document findings clearly.  
 
----
 
-# ---------------------------------------------------------
 # **Task 1 – Developer Tool Testing**
-# ---------------------------------------------------------
 
 ## **1. Device Emulation (Mobile)**
 
@@ -38,7 +35,6 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 ### Notes & Findings
 (Add your own observations here.)
 
----
 
 ## **2. Network Throttling**
 
@@ -54,7 +50,6 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 ### Notes & Findings
 (Add your own observations here.)
 
----
 
 ## **3. CPU Throttling**
 
@@ -69,7 +64,6 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 ### Notes & Findings
 (Add your own observations here.)
 
----
 
 ## **4. Performance Recording**
 
@@ -84,7 +78,6 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 ### Notes & Findings
 (Add your own observations here.)
 
----
 
 ## **5. DOM Inspection**
 
@@ -99,11 +92,8 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 ### Notes & Findings
 (Add your own observations here.)
 
----
 
-# ---------------------------------------------------------
 # **Task 2 – Selenium WebDriver Testing**
-# ---------------------------------------------------------
 
 ## **1. Overview of the Tested Application**
 
@@ -118,7 +108,6 @@ I created a simple UI Testing Playground website with:
 
 The backend was implemented in Node.js and Express.
 
----
 
 ## **2. Selenium Test Suite**
 
@@ -140,7 +129,6 @@ A critical insight emerged:
 
 This changed how the tests were written and led to more accurate, meaningful UI tests.
 
----
 
 ## **3. Screenshots of Selenium Tests in Action**
 
@@ -148,13 +136,11 @@ This changed how the tests were written and led to more accurate, meaningful UI 
 
 `![Selenium Test Screenshot](Images/selenium_placeholder.jpg)`
 
----
 
 ## **4. Findings & Observations**
 
 (Add your own conclusions here.)
 
----
 
 ## **5. Instructions for Running & Testing**
 
