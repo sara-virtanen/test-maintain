@@ -7,11 +7,11 @@
 
 This exercise consists of two tasks:
 
-- **Task 1:** Testing a website using browser developer tools  
+- **Task 1:** Testing a website using Chrome developer tools  
 - **Task 2:** Testing a website with Selenium WebDriver  
 
 
-# **Task 1 – Developer Tool Testing**
+# **Task 1 – DevTools Testing**
 
 I chose the web page [Sugarologie](https://www.sugarologie.com), a web site focused on science-based baking instructions and recipes.  
 
