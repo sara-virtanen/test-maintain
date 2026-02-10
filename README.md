@@ -13,7 +13,7 @@
 
 - [ ] IV - UI testing
 
-- [ ] V - WEB GUI Testing
+- [ ] V - Web GUI Testing
 
 - [ ] VI - Logging
 
