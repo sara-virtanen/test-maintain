@@ -3,7 +3,7 @@
 **Author:** Sara Virtanen  
 **Course:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 
-# Overview
+## Overview
 
 This exercise consists of two major tasks:
 
@@ -13,7 +13,7 @@ This exercise consists of two major tasks:
 The goal of this exercise is to explore practical UI testing techniques, understand browser‑level behavior, and document findings clearly.  
 
 
-# **Task 1 – Developer Tool Testing**
+## **Task 1 – Developer Tool Testing**
 
 ## **1. Device Emulation (Mobile)**
 
@@ -91,7 +91,7 @@ The goal of this exercise is to explore practical UI testing techniques, underst
 (Add your own observations here.)
 
 
-# **Task 2 – Selenium WebDriver Testing**
+## **Task 2 – Selenium WebDriver Testing**
 
 ## **1. Overview of the Tested Application**
 
