@@ -24,77 +24,55 @@ This exercise consists of two tasks:
 
 ### Screenshots
 
-#### **iPhone front page**
+**iPhone front page**
   
   ![iPhone view](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneRegular.png)
   
-####  **Edited iPhone front page**
+**Edited iPhone front page**
   
   ![Edited iPhone view](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneEdited.png)
   
-#### **iPhone UI Testing**
+**iPhone UI Testing**
   
   ![iPhone UI Testing](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneUITest.jpg)
 
 ### Notes & Findings
-(Add your own observations here.)
+Testing and editing the UI manually was straightforward, I've done this in the past in other web development courses.
 
 
-### **2. Network Throttling**
+### **2. Network & CPU Throttling**
 
 ### Actions Performed
-- Set throttling to **Slow 3G**  
-- Reloaded the page  
-- Observed loading waterfall and delays  
-- Tested **Offline mode**  
+- Set throttling to **Fast 4G**  
+- Enabled 4 × CPU slowdown  
+- Reloaded the page
+- Interacted with page elements
+- Observed delays  
 
 ### Screenshots
-`![Network Throttling](Images/network_throttle_placeholder.jpg)`
+**Performance with throttling active**
+![Network Throttling](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/bdd7412e7b1abe84fd5f2605e4d873fa17d66dbf/Images/UI_Testing/iPhonePerformance.jpg)
 
 ### Notes & Findings
-(Add your own observations here.)
+Throttling the CPU slowed the loading down quite a bit. The figure reflected on the Largest Contenful Paint (LCP) is good here, but in my other tests the result was not always this great.
 
-
-### **3. CPU Throttling**
-
-### Actions Performed
-- Enabled 4× CPU slowdown  
-- Interacted with page elements  
-- Observed animation and script delays  
-
-### Screenshots
-`![CPU Throttling](Images/cpu_throttle_placeholder.jpg)`
-
-### Notes & Findings
-(Add your own observations here.)
-
-
-### **4. Performance Recording**
+### **3. Performance Recording**
 
 ### Actions Performed
+- Throttling settings remain active
 - Started a performance recording  
 - Reloaded the page  
 - Captured layout, scripting, and rendering metrics  
 
 ### Screenshots
-`![Performance Recording](Images/perf_record_placeholder.jpg)`
+![Performance Recording](Images/perf_record_placeholder.jpg)
+![Performance Recording](Images/perf_record_placeholder.jpg)
+![Performance Recording](Images/perf_record_placeholder.jpg)
 
 ### Notes & Findings
-(Add your own observations here.)
+This was the most interesting and telling part of the testing. Observing how the page loads and what it loads revealed the main factors affecting the load time of the page, and why the page rendering feels so sluggish.
 
 
-### **5. DOM Inspection**
-
-### Actions Performed
-- Inspected cookie banner  
-- Inspected converter forms  
-- Verified element structure and CSS  
-
-### Screenshots
-`![DOM Inspection](Images/dom_inspection_placeholder.jpg)`
-
-### Notes & Findings
-(Add your own observations here.)
 
 
 # **Task 2 – Selenium WebDriver Testing**
