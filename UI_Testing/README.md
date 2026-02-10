@@ -23,11 +23,14 @@ This exercise consists of two tasks:
 - Changed page texts  
 
 ### Screenshots
-- **iPhone front page**  
+- **iPhone front page**
+  
   ![iPhone view](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneRegular.png)
-- **Edited iPhone front page**  
+- **Edited iPhone front page**
+  
   ![Edited iPhone view](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneEdited.png)
-- **iPhone UI Testing**  
+- **iPhone UI Testing**
+  
   ![iPhone UI Testing](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneUITest.jpg)
 
 ### Notes & Findings
