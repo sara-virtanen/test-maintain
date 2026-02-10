@@ -11,9 +11,9 @@
 
 - [x] III - [Integration Testing](https://github.com/sara-virtanen/test-maintain/tree/main/HexRGB) (2026-02-02)
 
-- [ ] IV - UI testing
+- [ ] IV - [UI testing](https://github.com/sara-virtanen/test-maintain/blob/main/UI_Testing/README.md)
 
-- [ ] V - Web GUI Testing
+- [ ] V - [Web GUI Testing](https://github.com/sara-virtanen/test-maintain/blob/main/Web_GUI_Testing/README.md)
 
 - [ ] VI - Logging
 
