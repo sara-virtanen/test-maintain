@@ -122,21 +122,17 @@ For this task, I used an AI-generated HTML/CSS web page as the target applicatio
 
 I used Git Bash to run:
 
-```
-python3 -m venv selenium-env
-source selenium-env/Scripts/activate
-pip install --upgrade pip
-pip install selenium webdriver-manager pytest
-```
+```python3 -m venv selenium-env```
+```source selenium-env/Scripts/activate```
+```pip install --upgrade pip```
+```pip install selenium webdriver-manager pytest```
 
 ## Serving the Web Page Locally
 
 I used a simple local Express server written in JavaScript to serve the web page so Selenium is able to interact with it.
 
-```
-npm init -y
-npm install express
-```  
+```npm init -y```
+```npm install express```
 
 ## Starting the server
 
