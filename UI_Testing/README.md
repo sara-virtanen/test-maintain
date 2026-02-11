@@ -133,7 +133,7 @@ npm install express
 
 ```node server.js```
 
-## Running Selenium tests
+## Running the Selenium tests
 
 ```pytest -v```
 
@@ -161,7 +161,7 @@ The test suite includes:
 - UI element visibility tests  
 
 
-## **3. Screenshots of Selenium Tests in Action**
+## **3. Screenshot of Selenium Tests in Action**
 
 ![Selenium Tests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/9310010053ae5231cb4745d97e40146d6358c401/Images/UI_Testing/selenium_tests_passed.jpg)
 
@@ -170,18 +170,6 @@ The test suite includes:
 
 (Add your own conclusions here.)
 
-
-## **5. Instructions for Running & Testing**
-
-### Running Selenium tests
-
-In a terminal window:
-```pytest -v```
-
-### Taking screenshots
-- Use PAUSE delays in tests  
-- Capture each step manually  
-- Use DevTools for additional inspection  
 
 ---
 
