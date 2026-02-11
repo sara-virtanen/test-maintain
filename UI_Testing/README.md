@@ -119,8 +119,6 @@ python3 -m venv selenium-env
 source selenium-env/Scripts/activate
 pip install --upgrade pip
 pip install selenium webdriver-manager pytest
-npm init -y
-npm install express
 ```
 
 ## **1. Overview of the Tested Application**
