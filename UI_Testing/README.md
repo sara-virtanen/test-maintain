@@ -156,7 +156,7 @@ The UI Testing Playground includes:
 
 ## **2. Implemented Tests**
 
-The following tests verify the functionality and interactive behavior of the application. The test scenarios are executed using Selenium WebDriver and the tests were written in Python.
+The following tests verify the functionality and interactive behavior of the application. The test scenarios are executed using Selenium WebDriver and the tests are written in Python using the pytest framework
 
 ### 1. Page Title Metadata Verification
 
@@ -264,7 +264,9 @@ The tests are executed with these flags so that custom print() messages appear i
 
 ## **4. Findings & Observations**
 
-As was mentioned in the lecture that prefaced this task, I ran into some difficulties with the cookie banner.
+I played around with ```time.sleep()``` and implemented a constant named ```PAUSE``` that I could use to easily set sleep to a certain length in all the tests for observation purposes. This allowed me to visually observe the testing Selenium was doing.  
+
+I had the most trouble with the cookie banner. The banner showed up correctly, but clicking “Accept cookies” didn’t hide it, update it, or change anything at all. The page just reloaded and the banner came right back. The real issue is that the application has no cookie‑handling logic implemented behind the button. In other words, the UI can display the banner, but it has no instructions for what to do after the user accepts it. Ultimately I just decided that the banner is visible before the click and it’s still visible afterward.
 
 ---
 
