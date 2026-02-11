@@ -166,6 +166,26 @@ The RGB converter was set up to block the user from entering any letters, but th
 
 During my testing, I noticed that the HEX input field did not enforce any input restrictions. It accepted arbitrary characters, including letters outside the hexadecimal range, symbols, and whitespace. Clicking the conversion button produced a result of RGB(0,0,0) every time. This missing validation feature was identified while testing invalid HEX inputs. This was both fun and useful because it was a concrete example of the importance of testing, and also an opportunity for me to fix the mistake in the AI generated application.  
 
+The AI generated input looked like this:
+
+```HTML
+<input type="text" name="hex" placeholder="#FFFFFF" required>
+```
+
+The fixed input handles the input length. The error tooltip message was not informative, so I amended it to reflect what the expected input should contain. It would also be possible to sanitize user inputs using JavaScript, but I did not opt for adding that feature to this implementation.
+
+```HTML
+<input
+  type="text"
+  name="hex"
+  placeholder="#FFFFFF"
+  required
+  maxlength="7"
+  pattern="^#?[0-9A-Fa-f]{3}$|^#?[0-9A-Fa-f]{6}$"
+  title="Enter a valid HEX value: 3 or 6 hex digits (0-9, A-F). No spaces or symbols allowed."
+/>
+```
+
 **Valid HEX Inputs**
 ![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
 ![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
