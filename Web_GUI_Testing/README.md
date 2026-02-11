@@ -73,7 +73,7 @@ The manual tests cover the following categories:
 
 **Valid RGB Inputs**
 
-| Test Case | Input (R, G, B) | Expected Output | Result |
+| Test Case | Input | Expected Output | Result |
 |----------|------|-----------------|---------------|
 | Standard white | `255, 255, 255` | `#FFFFFF` | Pass |
 | Standard black | `0, 0, 0` | `#000000` | Pass |
@@ -82,7 +82,17 @@ The manual tests cover the following categories:
 | Boundary low | `0, 0, 255` | `#0000FF` | Pass |
 | Boundary high | `255, 0, 0` | `#FF0000` | Pass |
 
+**Invalid RGB Inputs**
 
+| Test Case | Input | Expected Output | Result |
+|----------|------|-----------------|---------------|
+| Negative values | `-1, 100, 100` | Error | Pass |
+| Above max | `300, 0, 0` | Error | Pass |
+| Decimal | `12.5, 0, 0` | Error | Pass |
+| Letters | `A, 20, 30` | Error | Pass |
+| Empty fields | `"", "", ""` | Error | Pass |
+| Only one field | `255, "", ""` | Error | Pass |
+| Whitespace | `" ", 20, 20` | Error | Pass |
 
 
 ### Actions Performed
