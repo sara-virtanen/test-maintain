@@ -90,7 +90,9 @@ The manual tests cover the following categories:
 
 Letters and whitespace are not accepted inputs, that is why the expected output is rejection.
 
-### **HEX → RGB Converter**
+### **HEX → RGB Converter**  
+
+These tests were carried out after implementing the fixes outlined in the [testing section below](#hex--rgb-converter).  
 
 **Valid HEX Inputs**
 
@@ -103,7 +105,7 @@ Letters and whitespace are not accepted inputs, that is why the expected output 
 | Without # | `FFAACC` | `255,170,204` | Pass |
 | Three digits | `#FFF` | `255,255,255` | Pass |
 
-**Invalid HEX Inputs**
+**Invalid HEX Inputs**  
 
 | Test Case | Input | Expected Output | Result |
 |----------|------|-----------------|---------------|
