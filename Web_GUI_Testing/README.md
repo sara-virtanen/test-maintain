@@ -5,7 +5,7 @@
 
 ## Overview
 
-This exercise focuses on a simple RGB ↔ HEX color converter and the testing of its basic GUI. The goal is to try out a UI testing method and document how the converter behaves with valid and invalid inputs. The emphasis is on observing the application’s behavior, identifying issues in input handling or validation, and presenting the results clearly.
+This exercise focuses on a simple RGB ↔ HEX color converter and the testing of its basic GUI. The goal is to try out a UI testing method and document how the converter behaves with valid and invalid inputs. The emphasis is on observing the application’s behavior, identifying issues in input handling or validation, and presenting the results clearly.  
 
 ## Manual Testing of RGB ↔ HEX Converters
 
@@ -13,7 +13,7 @@ I focused on manually verifying the correctness and error‑handling behavior of
 
 ## **1. Testing Method**
 
-Testing was performed manually using the HTML interface served through the local Express server. All interactions were carried out directly in the browser (Google Chrome).
+I used an AI-generated HTML/CSS web page as the target application. Testing was performed manually using the HTML interface served through the local Express server. All interactions were carried out directly in the browser (Google Chrome).
 
 ![Conversion UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg)  
 
