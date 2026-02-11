@@ -112,10 +112,10 @@ The manual tests cover the following categories:
 | Too long | `1234567` | Error | Pass |
 | Invalid characters | `#GGHHII` | Error | Pass |
 | Empty input | `""` | Error | Pass |
-| Whitespace | `" "` | Rejected | Pass |
-| Symbols | `@@@###` | Rejected | Pass |
-| Punctuation | `#00,00,00` | Rejected | Pass |
-| Calculation | `1+2+3` | Rejected | Pass |
+| Whitespace | `" "` | Error | Pass |
+| Symbols | `@@@###` | Error | Pass |
+| Punctuation | `#00,00,` | Error | Pass |
+| Calculation | `1+2+3+4` | Error | Pass |
 
 
 
