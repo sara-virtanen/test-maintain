@@ -105,9 +105,8 @@ For this task, I am using an AI (Copilot) generated HTML web page that is styled
 
 ![Web Page UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/97ef15d7543ef1720f88136763b2d8e12fa2381e/Images/UI_Testing/Test_Website_Overview.png)
 
-## Prerequisite
+## Prerequisites
 
-- Node.js installed
 - Python 3.x installed (I have 3.13)
 
 ## Setting Up The Virtual Environment
