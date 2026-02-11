@@ -172,7 +172,7 @@ The AI generated input looked like this:
 <input type="text" name="hex" placeholder="#FFFFFF" required>
 ```
 
-And the server looked like this:  
+And the server error handling looked like this:  
 
 ```JavaScript
 if (!/^[0-9a-f]{6}$/.test(hex)) {
