@@ -89,7 +89,7 @@ The manual tests cover the following categories:
 | Negative values | `-1, 100, 100` | Error | Pass |
 | Above max | `300, 0, 0` | Error | Pass |
 | Decimal | `12.5, 0, 0` | Error | Pass |
-| Letters | `A, 20, 30` | Failure | Pass |
+| Letters | `A, 20, 30` | Rejected | Pass |
 | Empty fields | `"", "", ""` | Error | Pass |
 | Only one field | `255, "", ""` | Error | Pass |
 | Whitespace | `" ", 20, 20` | Error | Pass |
