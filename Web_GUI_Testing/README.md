@@ -124,35 +124,45 @@ The manual tests cover the following categories:
 **Valid RGB Inputs**
 
 **Standard white `255, 255, 255` `#FFFFFF`**  
+
 ![Standard white](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/255255255.jpg)  
 
 **Leading zeros  `003, 045, 255`  `#032DFF`**  
+
 ![Leading zeros](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/003045255.jpg)  
 
 **Invalid RGB Inputs**
 
 **Negative values `-1, 100, 100` (Error)**  
+
 ![Negative values](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/negativenro.jpg)  
 
 **Above max `300, 0, 0` (Error)**  
+
 ![Above max](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/over255.jpg)  
 
 **Decimal `12.5, 0, 0` (Error)**  
+
 ![Decimal](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/decimal.jpg)  
 
 **Letters: an exception appears!**  
+
 ![Letters](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/exponentE.jpg)  
 
 The RGB converter was set up to block the user from entering any letters, but there is an exception to this. The input type is number, but scientific notation circumvents this, so the letter e (exponent notation) is considered to be valid numeric syntax. - and . are also allowed, even though decimals and negative numbers are then caught later and correctly produce error messages. Inspired by inputting e, I also tested addition in the input field.  
 
 **Empty fields `"", "", ""` (Error)**  
+
 ![Empty fields](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/emptyfield.jpg)  
 
 **Addition - just for fun**  
+
 ![Addition](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/rgbmaths.jpg)  
 
 
 ### **HEX → RGB Converter**
+
+During my testing, I noticed that the HEX input field did not enforce any input restrictions. It accepted arbitrary characters, including letters outside the hexadecimal range, symbols, and whitespace. Clicking the conversion button produced a result of RGB(0,0,0) every time. This missing validation feature was identified while testing invalid HEX inputs. This was both fun and useful because it was a concrete example of the importance of testing, and also an opportunity for me to fix the mistake in the AI generated application.  
 
 **Valid HEX Inputs**
 ![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
