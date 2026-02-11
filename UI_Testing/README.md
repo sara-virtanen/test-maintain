@@ -158,14 +158,10 @@ The test suite includes:
 
 ## **5. Instructions for Running & Testing**
 
-### Starting the server
-
-```node server.js```
-
 ### Running Selenium tests
 
-In a new terminal window:
-```pytest -v```
+In a terminal window:
+```pytest -s test_ui_project.py```
 
 ### Taking screenshots
 - Use PAUSE delays in tests  
