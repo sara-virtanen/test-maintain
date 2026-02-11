@@ -88,7 +88,7 @@ Throttling the CPU slowed the page down. The figure reflected on the Largest Con
 ![Web Page AI Analysis](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/AIPerfAnalysis.jpg)  
 
 ### Notes & Findings
-This was the most interesting and telling part of the testing. Observing how the page loads and what it loads revealed the main factors affecting the load time of the page, and why the page rendering and drawing feels so sluggish.  
+This was the most interesting and telling part of the testing. Observing how the page loads revealed the main factors affecting the load time of the page, and why the page feels so sluggish.  
 
 I used hard reloads (CTRL + Shift + R) to see the real time it takes for the page to load without having cached elements. It consistently took 400 to over 600 ms for the slowest JavaScript files on the page to load. These were Substack scripts, which are responsible for loading third-party code. They bloat the network requests and slow the page down. The slow JavaScript was mainly related to tracking, analytics and ads. This is a major source of bloat on the modern Internet because all of the aforementioned features are important for commercial web pages.
 
