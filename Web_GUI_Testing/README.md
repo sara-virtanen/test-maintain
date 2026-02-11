@@ -5,8 +5,7 @@
 
 ## Overview
 
-This exercise consists of 
-
+Exercise 5 focuses on a simple RGB ↔ HEX color converter and the testing of its basic GUI. The goal is to try out a UI testing method and document how the converter behaves with valid and invalid inputs. The emphasis is on observing the application’s behavior, identifying issues in input handling or validation, and presenting the results clearly.
 
 ## Manual Testing of RGB ↔ HEX Converters
 
