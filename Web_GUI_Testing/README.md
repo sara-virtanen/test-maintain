@@ -41,7 +41,7 @@ The manual tests cover the following categories:
 * Empty fields
 * Non‑numeric characters
 * Partially filled inputs (e.g., only R and G)
-* Whitespace or stray characters
+* Whitespace
 
 ### Valid HEX Inputs
 * Standard 6‑digit hex (e.g., #FFFFFF, #00A1C2)
