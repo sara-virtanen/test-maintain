@@ -16,6 +16,8 @@ I focused on manually verifying the correctness and error‑handling behavior of
 
 Testing was performed manually using the HTML interface served through the local Express server. All interactions were carried out directly in the browser (Google Chrome).
 
+![Conversion UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg)  
+
 ### Testing Workflow Plan
 * Enter the specified input into the converter fields
 * Trigger the conversion using the appropriate button
@@ -79,7 +81,7 @@ The manual tests cover the following categories:
 
 **iPhone Performance Recording**
 
-![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/2378850097c30d98118ee951d49388e6234c6781/Images/UI_Testing/iPhonePerf.jpg)  
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg)  
 
 **Web Page Performance Recording**  
 
