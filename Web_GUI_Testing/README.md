@@ -69,6 +69,20 @@ The manual tests cover the following categories:
 
 ## **3. Detailed Test Cases**
 
+### **RGB → HEX Converter**
+
+**Valid Input Tests**
+
+| Test Case | Input (R,G,B) | Expected Output | Result |
+|----------|------|-----------------|---------------|
+| Standard white | `255, 255, 255` | `#FFFFFF` | Pass |
+| Standard black | `0, 0, 0` | `#000000` | Pass |
+| Mixed values | `12, 200, 99` | `#0CC863` | Pass |
+| Leading zeros | `003, 045, 255` | `#032DFF` | Pass |
+| Boundary low | `0, 0, 255` | `#0000FF` | Pass |
+| Boundary high | `255, 0, 0` | `#FF0000` | Pass |
+
+
 
 
 ### Actions Performed
