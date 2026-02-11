@@ -248,6 +248,12 @@ The maximum length for the HEX input box is seven characters, so in order to wri
 
 ![Extra error](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/00b048c790dbcf74a57838e0f721b54076a0dda3/Images/UI_Testing/invalid_hex_format.jpg)  
 
+## Thoughts and Reflections
+
+It would be possible to test even a simple graphic user interface such as this in a million and one ways. It took quite a while to plan, carry out and document just this manual testing, so this exercise really served to highlight just how much work goes into testing in general, regardless of the tools or approach.  
+
+Automated testing (unit, integration) was not carried out at this time. It would be possible to write a test suite to automatically test all the inputs that were tested manually here.
+
 ---
 
 **Last updated:** 2026‑02‑11
