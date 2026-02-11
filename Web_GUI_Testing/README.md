@@ -94,6 +94,36 @@ The manual tests cover the following categories:
 | Only one field | `255, "", ""` | Error | Pass |
 | Whitespace | `" ", 20, 20` | Rejected | Pass |
 
+### **HEX → RGB Converter**
+
+**Valid HEX Inputs**
+
+| Test Case | Input | Expected Output | Result |
+|----------|------|-----------------|---------------|
+| Standard white | `#FFFFFF` | `255,255,255` | Pass |
+| Standard black | `#000000` | `0,0,0` | Pass |
+| Mixed case | `#aBc123` | `171,193,35` | Pass |
+| Lower case | `#ffffff` | `255,255,255` | Pass |
+| Without # | `FFAACC` | `255,170,204` | Pass |
+| Boundary low | `#0000FF` | `0,0,255` | Pass |
+| Boundary high | `#FF0000` | `255,0,0` | Pass |
+| Three letters | `#FFF` | `255,255,255` | Pass |
+
+**Invalid HEX Inputs**
+
+| Test Case | Input | Expected Output | Result |
+|----------|------|-----------------|---------------|
+| Too short | `#FF` | Error | Pass |
+| Too long | `#1234567` | Error | Pass |
+| Invalid characters | `#GGHHII` | Error | Pass |
+| Empty input | `""` | Error | Pass |
+| Whitespace | `" "` | Rejected | Pass |
+| Symbols | `@@@###` | Rejected | Pass |
+| Calculation | `1+2+3` | Error | Fail |
+
+
+
+
 
 ### Actions Performed
 * Throttling still active
