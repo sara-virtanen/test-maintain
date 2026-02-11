@@ -108,7 +108,7 @@ For this task, I am using an AI (Copilot) generated HTML web page that is styled
 ## Prerequisite
 
 - Node.js installed
-- Python 3.x installed (I have 3.13) & correctly configured to PATH
+- Python 3.x installed (I have 3.13)
 
 ## Setting Up The Virtual Environment
 
