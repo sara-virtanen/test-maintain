@@ -184,7 +184,7 @@ if (!/^[0-9a-f]{6}$/.test(hex)) {
 }
 ```
 
-The fixed input handles the input length. The error tooltip message was not informative, so I amended it to reflect what the expected input should contain. There is a previous version in some of the screenshots in this section, I added more information to the error message later (the text that is visible in the code block below) to make it completely explicit what the input field expects. It would also be possible to sanitize user inputs using JavaScript, but I did not opt for adding that feature to this implementation.  
+The fixed input now discriminates based on the characters the user inputs, and the length of the input. There was no error tooltip message, so I added one to reflect what the expected input should contain. There is a shorter version in some of the screenshots in this section, I added more information to the error message later (the text that is visible in the code block below) to make it completely explicit what the input field expects. It would also be possible to sanitize user inputs using JavaScript, but I did not opt for adding that feature to this implementation.  
 
 ```HTML
 <input
