@@ -45,7 +45,7 @@ The manual tests cover the following categories:
 
 ### Valid HEX Inputs
 * Standard 6‑digit hex (e.g., #FFFFFF, #00A1C2)
-* Three digit hex (eg. #FFF)
+* Three digit hex (e.g., #FFF)
 * Lowercase and uppercase variants
 * Hex without the # prefix
 
