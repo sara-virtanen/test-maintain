@@ -71,7 +71,7 @@ The manual tests cover the following categories:
 
 ### **RGB → HEX Converter**
 
-**Valid Input Tests**
+**Valid RGB Inputs**
 
 | Test Case | Input (R,G,B) | Expected Output | Result |
 |----------|------|-----------------|---------------|
