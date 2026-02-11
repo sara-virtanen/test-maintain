@@ -101,7 +101,7 @@ I also ran the web page through [DebugBear](https://www.debugbear.com/test/websi
 
 # **Task 2 – Selenium WebDriver Testing**
 
-For this task, I am using an AI (Copilot) generated HTML web page that is styled with CSS. I will continue to use the same web page in exercise 5.
+For this task, I am using an AI (Copilot) generated HTML web page that is styled with CSS. I will continue to use the same web page in exercise 5. Initially I planned to do Task 1 on this web page, but this page would have been too boring in terms of performance or anything to optimize.
 
 ![Web Page UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/97ef15d7543ef1720f88136763b2d8e12fa2381e/Images/UI_Testing/Test_Website_Overview.png)
 
