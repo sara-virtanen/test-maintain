@@ -92,7 +92,7 @@ Letters and whitespace are not accepted inputs, that is why the expected output 
 
 ### **HEX → RGB Converter**  
 
-These tests were carried out after implementing the fixes outlined in the [testing section below](#hex--rgb-converter).  
+These tests were carried out after implementing the fixes outlined in the [testing section below](#hex--rgb-converter-1).  
 
 **Valid HEX Inputs**
 
