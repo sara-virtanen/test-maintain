@@ -29,7 +29,7 @@ I used an AI-generated HTML/CSS web page as the target application. Testing was 
 The manual tests cover the following categories:
 
 ### Valid RGB Inputs
-* Standard values (e.g., 255, 0, 128)
+* Standard values (e.g., 255, 255, 255)
 * Mixed values (e.g., 12, 200, 99)
 * Leading zeros (e.g., 003, 045, 255)
 
