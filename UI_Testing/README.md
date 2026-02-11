@@ -266,7 +266,7 @@ The tests are executed with these flags so that custom print() messages appear i
 
 The cookie banner is purely a visual component with no backend logic connected to it. Although it includes “Accept” and “Reject” buttons, both forms submit to routes that don’t exist, and there’s no JavaScript to update the UI or store any cookie state. Because of this, clicking either button simply reloads the page and the banner reappears exactly as before. The test reflects this by verifying that the banner is visible before the click and remains visible afterward, matching the current implementation of the page.  
 
-I played around with ```time.sleep()``` and implemented a constant named ```PAUSE``` that I could use to easily set sleep to a certain length in all the tests for observation purposes. This allowed me to visually observe the testing Selenium was doing.  
+I played around with ```time.sleep()``` and implemented a constant named ```PAUSE``` that I could use to easily set sleep to a certain length in all the tests for observation purposes. This allowed me to visually observe the testing Selenium was doing. It was still a kind of "blink and you'll miss it" sort of thing, but that is a given seeing as this is primarily meant to be automated testing and it isn't meant for viewing by the human eye.  
 
 I rickrolled myself at least ten times while observing the tests in action.  
 
