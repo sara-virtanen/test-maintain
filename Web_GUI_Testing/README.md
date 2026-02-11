@@ -31,7 +31,6 @@ The manual tests cover the following categories:
 
 ### Valid RGB Inputs
 * Standard values (e.g., 255, 0, 128)
-* Boundary values (0 and 255)
 * Mixed values (e.g., 12, 200, 99)
 * Leading zeros (e.g., 003, 045, 255)
 
@@ -47,9 +46,9 @@ The manual tests cover the following categories:
 
 ### Valid HEX Inputs
 * Standard 6‑digit hex (e.g., #FFFFFF, #00A1C2)
+* Three digit hex (eg. #FFF)
 * Lowercase and uppercase variants
 * Hex without the # prefix
-* Boundary values (#000000 and #FFFFFF)
 
 ### Invalid HEX Inputs
 * Too short or too long (e.g., #FFF, #FFFFF, #1234567)
@@ -103,7 +102,7 @@ The manual tests cover the following categories:
 | Mixed case | `#aBc123` | `171,193,35` | Pass |
 | Lower case | `#ffffff` | `255,255,255` | Pass |
 | Without # | `FFAACC` | `255,170,204` | Pass |
-| Three letters | `#FFF` | `255,255,255` | Pass |
+| Three digits | `#FFF` | `255,255,255` | Pass |
 
 **Invalid HEX Inputs**
 
@@ -115,6 +114,7 @@ The manual tests cover the following categories:
 | Empty input | `""` | Error | Pass |
 | Whitespace | `" "` | Rejected | Pass |
 | Symbols | `@@@###` | Rejected | Pass |
+| Punctuation | `#00,00,00` | Error | Pass |
 | Calculation | `1+2+3` | Error | Fail |
 
 
