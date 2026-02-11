@@ -18,7 +18,7 @@ I used an AI-generated HTML/CSS web page as the target application. Testing was 
 ![Conversion UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg)  
 
 ### Testing Workflow Plan
-* Enter the specified input into the converter fields
+* Enter the specified input into the converter fields (if allowed)
 * Trigger the conversion using the appropriate button
 * Observe the output displayed in the UI
 * Record whether the behavior matches the expected result
