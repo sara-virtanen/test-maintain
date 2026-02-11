@@ -129,9 +129,7 @@ I created a simple UI Testing Playground website with:
 - RGB → HEX converter  
 - HEX → RGB converter  
 - Embedded video  
-- Nested layout section  
-
-The backend was implemented in Node.js and Express.
+- Nested layout section
 
 
 ## **2. Selenium Test Suite**
