@@ -7,8 +7,8 @@
 
 This exercise consists of two tasks:
 
-- **Task 1:** Testing a website using Chrome developer tools  
-- **Task 2:** Testing a website with Selenium WebDriver  
+* **Task 1:** Testing a website using Chrome developer tools  
+* **Task 2:** Testing a website with Selenium WebDriver  
 
 
 # **Task 1 – DevTools Testing**
@@ -20,11 +20,11 @@ Sugarologie is built on [Webflow](https://webflow.com), which is an AI-powered "
 ### **1. Device Emulation (Mobile)**
 
 ### Actions Performed
-- Opened Chrome DevTools  
-- Toggled device toolbar  
-- Tested mobile dimensions (iPhone 14 Pro Max)  
-- Observed layout changes, responsive behavior and navigation  
-- Changed page texts  
+* Opened Chrome DevTools  
+* Toggled device toolbar  
+* Tested mobile dimensions (iPhone 14 Pro Max)  
+* Observed layout changes, responsive behavior and navigation  
+* Changed page texts  
 
 ### Screenshots
 
@@ -47,11 +47,11 @@ Testing and editing the UI elements manually was straightforward, I've done this
 ### **2. Network & CPU Throttling**
 
 ### Actions Performed
-- Set network throttling to **Fast 4G**  
-- Enabled 4 × CPU slowdown  
-- Hard reloaded the page
-- Interacted with page elements
-- Observed delays  
+* Set network throttling to **Fast 4G**  
+* Enabled 4 × CPU slowdown  
+* Hard reloaded the page
+* Interacted with page elements
+* Observed delays  
 
 ### Screenshots
 **Performance with throttling active**  
@@ -64,10 +64,10 @@ Throttling the CPU slowed the page down. The figure reflected on the Largest Con
 ### **3. Performance Recording**
 
 ### Actions Performed
-- Throttling still active
-- Started a performance recording  
-- Hard reloaded the page  
-- Captured layout, scripting, and rendering metrics  
+* Throttling still active
+* Started a performance recording  
+* Hard reloaded the page  
+* Captured layout, scripting, and rendering metrics  
 
 ### Screenshots
 
@@ -105,11 +105,18 @@ For this task, I used an AI-generated HTML/CSS web page as the target applicatio
 
 ![Web Page UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/97ef15d7543ef1720f88136763b2d8e12fa2381e/Images/UI_Testing/Test_Website_Overview.png)
 
+## Tools Used in This Exercise
+
+* **Selenium WebDriver** – automates browser interactions and simulates real user behavior
+* **pytest** – provides the test runner, assertions, and structured test execution
+* **webdriver_manager** – automatically installs and manages the correct ChromeDriver version
+* **Google Chrome** – the browser used to execute and validate all UI interactions
+
 ## Prerequisites
 
-- Python 3.x.x (I used 3.13.7)
-- Node.js + npm
-- Google Chrome
+* Python 3.x.x (I used 3.13.7)
+* Node.js + npm
+* Google Chrome
 
 ## Setting Up The Virtual Environment
 
@@ -131,52 +138,137 @@ npm init -y
 npm install express
 ```  
 
-The server exposes the project directory at:
-
-```http://localhost:3000```
-
 ## Starting the server
 
 ```node server.js```
 
-## Running the Selenium tests
+The project can be accessed at:
 
-```pytest -v```
+```http://localhost:3000```
 
 ## **1. Overview of the Tested Application**
 
 The UI Testing Playground includes:
 
-- A cookie banner
-- A navigation bar
-- RGB → HEX converter (logic tested in Exercise 5)
-- HEX → RGB converter (logic tested in Exercise 5)
-- An embedded YouTube video
-- A deeply nested layout section
-- Several interactive UI elements
+* A cookie banner
+* A navigation bar
+* RGB → HEX converter (logic to be tested in Exercise 5)
+* HEX → RGB converter (logic to be tested in Exercise 5)
+* An embedded YouTube video
+* A deeply nested layout section
+* Several interactive UI elements
 
-## **2. Selenium Test Suite**
+## **2. Implemented Tests**
 
-These tests validate:
+The following tests verify the functionality and interactive behavior of the application. The test scenarios are executed using Selenium WebDriver and the tests were written in Python.
 
-- Page metadata
-- Cookie banner visibility
-- Navigation behavior
-- Input field interaction  
-- Button clickability  
-- Section visibility
-- Video iframe presence
-- Nested layout rendering  
+### 1. Page Title Metadata Verification
 
+**Function:** ```test_page_title_metadata(driver)```  
+
+* Opens the application’s front page
+* Reads the browser tab title
+* Confirms that the title matches the expected value
+* Ensures that the correct page is loaded and identifiable  
+
+This test validates that the application exposes accurate metadata for browser tabs, bookmarking, and accessibility tools.
+
+### 2. Meta Description Tag Validation
+
+**Function:** ```test_meta_description_tag(driver)```
+
+* Locates the ```<meta name="description">``` element in the document head
+* Extracts the ```content``` attribute
+* Verifies that the description matches the expected text  
+
+This scenario demonstrates DOM inspection and ensures that search engines and social media previews receive the correct descriptive metadata.
+
+### 3. Cookie Banner Visibility and Reload Behavior
+
+**Function:** ```test_cookie_banner_reload_behavior(driver)```
+
+* Loads the front page and checks that the cookie banner is visible
+* Clicks the “Accept cookies” button
+* Waits for the page to reload
+* Confirms that the banner remains visible (as no backend logic is implemented yet)  
+
+This test verifies that the cookie banner is rendered correctly and that UI elements persist across reloads.
+
+### 4. Navigation Link Scrolling Behavior
+
+**Function:** ```test_navigation_link_scrolling(driver)```
+
+* Clicks navigation links in the header
+* Waits for the page to scroll to the correct section
+* Confirms that the target section is visible in the viewport  
+
+This test ensures that anchor‑based navigation behaves as expected and that section IDs are correctly wired.
+
+### 5. RGB Input Field UI Behavior
+
+**Function:** ```test_rgb_input_field_ui(driver)```
+
+* Locates the RGB input field
+* Types a numeric value into the field
+* Verifies that the input is accepted and displayed correctly  
+
+This scenario confirms that the UI accepts user input and updates the field value without validation errors.
+
+### 6. Converter Button Clickability
+
+**Function:** ```test_converter_buttons_clickable(driver)```
+
+* Locates both conversion buttons
+* Clicks each button to ensure they are interactive
+* Confirms that the UI responds to user actions  
+
+This test verifies that the conversion controls are present, clickable, and wired to event handlers.
+
+### 7. Intro Section Header Visibility
+
+**Function:** ```test_intro_section_header_visible(driver)```
+
+* Scrolls to the intro section
+* Locates the section header
+* Confirms that the header is visible to the user  
+
+This scenario ensures that key content is rendered and accessible.
+
+### 8. Embedded Video Playback
+
+**Function:** ```test_embedded_video_playback(driver)```
+
+* Switches into the YouTube iframe
+* Clicks the large play button
+* Waits for playback to begin
+* Confirms playback by checking the play/pause button state  
+
+This test verifies that embedded media loads correctly and responds to user interaction.
+
+### 9. Nested Layout Text Retrieval
+
+**Function:** ```test_nested_layout_text_retrieval(driver)```
+
+* Locates a deeply nested element inside a multi‑layer layout
+* Extracts its text content
+* Confirms that the expected text is present  
+
+This scenario demonstrates the ability to traverse complex DOM structures and validate nested UI content.
+
+## Running the Selenium tests
+
+```pytest -s -v```
+
+The tests are executed with these flags so that custom print() messages appear in the console (-s) and each test clearly reports its final status as PASSED or FAILED in verbose form (-v) during the test run.
 
 ## **3. Screenshot of Selenium Tests in Action**
 
-![Selenium Tests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/9310010053ae5231cb4745d97e40146d6358c401/Images/UI_Testing/selenium_tests_passed.jpg)
+![Selenium pytests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/1ace50682f4a4dcbe99fef0a280601ae181bbd16/Images/UI_Testing/pytestssss.jpg)
 
 
 ## **4. Findings & Observations**
 
-(Add your own conclusions here.)
+As was mentioned in the lecture that prefaced this task, I ran into some difficulties with the cookie banner.
 
 ---
 
