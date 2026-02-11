@@ -13,7 +13,7 @@
 
 - [x] IV - [UI testing](https://github.com/sara-virtanen/test-maintain/blob/main/UI_Testing/README.md) (2026-02-11)
 
-- [ ] V - [Web GUI Testing](https://github.com/sara-virtanen/test-maintain/blob/main/Web_GUI_Testing/README.md)
+- [x] V - [Web GUI Testing](https://github.com/sara-virtanen/test-maintain/blob/main/Web_GUI_Testing/README.md) (2026-02-11)
 
 - [ ] VI - Logging
 
