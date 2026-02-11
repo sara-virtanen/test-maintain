@@ -133,6 +133,8 @@ The manual tests cover the following categories:
 
 **Invalid RGB Inputs**
 
+Whitespace is not accepted by the input fields, therefore the relevant test is marked as "rejected".
+
 **Negative values `-1, 100, 100` (Error)**  
 
 ![Negative values](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/negativenro.jpg)  
