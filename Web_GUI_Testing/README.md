@@ -73,7 +73,7 @@ The manual tests cover the following categories:
 
 **Valid RGB Inputs**
 
-| Test Case | Input (R,G,B) | Expected Output | Result |
+| Test Case | Input (R, G, B) | Expected Output | Result |
 |----------|------|-----------------|---------------|
 | Standard white | `255, 255, 255` | `#FFFFFF` | Pass |
 | Standard black | `0, 0, 0` | `#000000` | Pass |
