@@ -109,7 +109,7 @@ For this task, I used an AI-generated HTML/CSS web page as the target applicatio
 
 * **Selenium WebDriver** – automates browser interactions and simulates real user behavior
 * **pytest** – provides the test runner, assertions, and structured test execution
-* **webdriver_manager** – automatically installs and manages the correct ChromeDriver version
+* **webdriver-manager** – automatically installs and manages the correct ChromeDriver version
 * **Google Chrome** – the browser used to execute and validate all UI interactions
 
 ## Prerequisites
@@ -181,7 +181,7 @@ This test validates that the application exposes accurate metadata for browser t
 * Extracts the ```content``` attribute
 * Verifies that the description matches the expected text  
 
-This scenario demonstrates DOM inspection and ensures that search engines and social media previews receive the correct descriptive metadata.
+This test demonstrates DOM inspection and ensures that search engines and social media previews receive the correct descriptive metadata.
 
 ### 3. Cookie Banner Visibility and Reload Behavior
 
@@ -190,7 +190,7 @@ This scenario demonstrates DOM inspection and ensures that search engines and so
 * Loads the front page and checks that the cookie banner is visible
 * Clicks the “Accept cookies” button
 * Waits for the page to reload
-* Confirms that the banner remains visible (as no backend logic is implemented yet)  
+* Confirms that the banner remains visible (as no backend logic is implemented)  
 
 This test verifies that the cookie banner is rendered correctly and that UI elements persist across reloads.
 
@@ -212,7 +212,7 @@ This test ensures that anchor‑based navigation behaves as expected and that se
 * Types a numeric value into the field
 * Verifies that the input is accepted and displayed correctly  
 
-This scenario confirms that the UI accepts user input and updates the field value without validation errors.
+This test confirms that the UI accepts user input and updates the field value without validation errors.
 
 ### 6. Converter Button Clickability
 
@@ -232,7 +232,7 @@ This test verifies that the conversion controls are present, clickable, and wire
 * Locates the section header
 * Confirms that the header is visible to the user  
 
-This scenario ensures that key content is rendered and accessible.
+This test ensures that key content is rendered and accessible.
 
 ### 8. Embedded Video Playback
 
@@ -253,7 +253,7 @@ This test verifies that embedded media loads correctly and responds to user inte
 * Extracts its text content
 * Confirms that the expected text is present  
 
-This scenario demonstrates the ability to traverse complex DOM structures and validate nested UI content.
+This test demonstrates the ability to traverse complex DOM structures and validate nested UI content.
 
 ## Running the Selenium tests
 
