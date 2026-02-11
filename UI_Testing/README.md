@@ -257,7 +257,7 @@ This test demonstrates the ability to traverse complex DOM structures and valida
 
 The tests are executed with these flags so that custom print() messages appear in the console (-s) and each test clearly reports its final status as PASSED or FAILED in verbose form (-v) during the test run.
 
-## **3. Screenshot of Selenium Tests in Action**
+## **3. Screenshot of Passed Selenium Tests**
 
 ![Selenium pytests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/1ace50682f4a4dcbe99fef0a280601ae181bbd16/Images/UI_Testing/pytestssss.jpg)
 
