@@ -107,7 +107,7 @@ For this task, I am using an AI (Copilot) generated HTML web page that is styled
 
 ## Prerequisites
 
-- Python 3.x installed (I have 3.13)
+- Python 3.x.x installed (I have 3.13.7)
 
 ## Setting Up The Virtual Environment
 
@@ -163,9 +163,7 @@ The test suite includes:
 
 ## **3. Screenshots of Selenium Tests in Action**
 
-(Add your own screenshots here.)
-
-`![Selenium Test Screenshot](Images/selenium_placeholder.jpg)`
+![Selenium Tests](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/9310010053ae5231cb4745d97e40146d6358c401/Images/UI_Testing/selenium_tests_passed.jpg)
 
 
 ## **4. Findings & Observations**
