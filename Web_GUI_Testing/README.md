@@ -147,9 +147,9 @@ Whitespace is not accepted by the input fields, therefore the relevant test is m
 
 ![Decimal](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/decimal.jpg)  
 
-**Empty fields `"", "", ""` (Error)**  
+**One empty field `"", "100", "100"` (Error)**  
 
-![Empty fields](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/emptyfield.jpg)  
+![One empty field](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/emptyfield.jpg)  
 
 **Letters: an exception appears!**  
 
