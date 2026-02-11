@@ -145,15 +145,15 @@ The manual tests cover the following categories:
 
 ![Decimal](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/decimal.jpg)  
 
+**Empty fields `"", "", ""` (Error)**  
+
+![Empty fields](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/emptyfield.jpg)  
+
 **Letters: an exception appears!**  
 
 ![Letters](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/exponentE.jpg)  
 
 The RGB converter was set up to block the user from entering any letters, but there is an exception to this. The input type is number, but scientific notation circumvents this, so the letter e (exponent notation) is considered to be valid numeric syntax. - and . are also allowed, even though decimals and negative numbers are then caught later and correctly produce error messages. Inspired by inputting e, I also tested addition in the input field.  
-
-**Empty fields `"", "", ""` (Error)**  
-
-![Empty fields](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/emptyfield.jpg)  
 
 **Addition - just for fun**  
 
