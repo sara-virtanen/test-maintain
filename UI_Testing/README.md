@@ -120,6 +120,23 @@ pip install --upgrade pip
 pip install selenium webdriver-manager pytest
 ```
 
+## Using a Local Server
+
+I used a simple local Express server written in JavaScript to serve the web page so Selenium is able to interact with it.
+
+```
+npm init -y
+npm install express
+```
+
+## Starting the server
+
+```node server.js```
+
+## Running Selenium tests
+
+```pytest -v```
+
 ## **1. Overview of the Tested Application**
 
 I created a simple UI Testing Playground website with:
@@ -161,7 +178,7 @@ The test suite includes:
 ### Running Selenium tests
 
 In a terminal window:
-```pytest -s test_ui_project.py```
+```pytest -v```
 
 ### Taking screenshots
 - Use PAUSE delays in tests  
