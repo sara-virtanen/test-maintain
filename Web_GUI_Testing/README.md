@@ -117,6 +117,55 @@ The manual tests cover the following categories:
 | Punctuation | `#00,00,` | Error | Pass |
 | Calculation | `1+2+3+4` | Error | Pass |
 
+## **4. Test Results**
+
+### **RGB → HEX Converter**
+
+**Valid RGB Inputs**
+
+**Standard white `255, 255, 255` `#FFFFFF`**  
+![Standard white](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/255255255.jpg)  
+
+**Leading zeros  `003, 045, 255`  `#032DFF`**  
+![Leading zeros](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/003045255.jpg)  
+
+**Invalid RGB Inputs**
+
+**Negative values `-1, 100, 100` (Error)**  
+![Negative values](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/negativenro.jpg)  
+
+**Above max `300, 0, 0` (Error)**  
+![Above max](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/over255.jpg)  
+
+**Decimal `12.5, 0, 0` (Error)**  
+![Decimal](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/decimal.jpg)  
+
+**Letters: an exception appears!**  
+![Letters](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/exponentE.jpg)  
+
+The RGB converter was set up to block the user from entering any letters, but there is an exception to this. The input type is number, but scientific notation circumvents this, so the letter e (exponent notation) is considered to be valid numeric syntax. - and . are also allowed, even though decimals and negative numbers are then caught later and correctly produce error messages. Inspired by inputting e, I also tested addition in the input field.  
+
+**Empty fields `"", "", ""` (Error)**  
+![Empty fields](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/emptyfield.jpg)  
+
+**Addition - just for fun**  
+![Addition](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/4f3c0836fb1ad8b9648babd59742767c94fb30c4/Images/UI_Testing/rgbmaths.jpg)  
+
+
+### **HEX → RGB Converter**
+
+**Valid HEX Inputs**
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+
+
+**Invalid HEX Inputs**
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
+![iPhone Performance](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/df4ca27e96115b92ca401cffe0c9a42db22ce8d8/Images/UI_Testing/converter_UI_plain.jpg) 
 
 
 
