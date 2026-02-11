@@ -88,7 +88,7 @@ The manual tests cover the following categories:
 | Empty input | `"", "", ""` | Error | Pass |
 | Whitespace | `" ", 20, 20` | Rejected | Pass |
 
-Whitespace is not accepted by the input fields, therefore the relevant test is marked as "rejected".
+Letters and whitespace are not accepted inputs, that is why the expected output is rejection.
 
 ### **HEX → RGB Converter**
 
