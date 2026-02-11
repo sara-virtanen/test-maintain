@@ -8,7 +8,7 @@
 This exercise consists of 
 
 
-# Manual Testing of RGB ↔ HEX Converters
+## Manual Testing of RGB ↔ HEX Converters
 
 I focused on manually verifying the correctness and error‑handling behavior of the RGB→HEX and HEX→RGB converters implemented in the application. The goal was to test a wide range of valid and invalid inputs, observe how the UI responds, and document any unexpected behavior or missing validation.
 
