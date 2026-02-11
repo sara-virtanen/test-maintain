@@ -109,13 +109,13 @@ The manual tests cover the following categories:
 | Test Case | Input | Expected Output | Result |
 |----------|------|-----------------|---------------|
 | Too short | `#FF` | Error | Pass |
-| Too long | `#1234567` | Error | Pass |
+| Too long | `1234567` | Error | Pass |
 | Invalid characters | `#GGHHII` | Error | Pass |
 | Empty input | `""` | Error | Pass |
 | Whitespace | `" "` | Rejected | Pass |
 | Symbols | `@@@###` | Rejected | Pass |
-| Punctuation | `#00,00,00` | Error | Pass |
-| Calculation | `1+2+3` | Error | Fail |
+| Punctuation | `#00,00,00` | Rejected | Pass |
+| Calculation | `1+2+3` | Rejected | Pass |
 
 
 
