@@ -41,7 +41,7 @@ Sugarologie is built on [Webflow](https://webflow.com), which is an AI-powered "
   ![iPhone UI Testing](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/c4d1e45599ad5dccb5a193876c24d9269e09b2c4/Images/UI_Testing/iPhoneUITest.jpg)
 
 ### Notes & Findings
-Testing and editing the UI manually was straightforward, I've done this in the past in other web development courses.
+Testing and editing the UI elements manually was straightforward, I've done this in the past in other web development courses.
 
 
 ### **2. Network & CPU Throttling**
