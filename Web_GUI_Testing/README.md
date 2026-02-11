@@ -12,7 +12,7 @@ This exercise consists of
 
 I focused on manually verifying the correctness and error‑handling behavior of the RGB→HEX and HEX→RGB converters implemented in the application. The goal was to test a wide range of valid and invalid inputs, observe how the UI responds, and document any unexpected behavior or missing validation.
 
-### **1. Testing Method**
+## **1. Testing Method**
 
 Testing was performed manually using the HTML interface served through the local Express server. All interactions were carried out directly in the browser (Google Chrome).
 
@@ -25,7 +25,7 @@ Testing was performed manually using the HTML interface served through the local
 * Record whether the behavior matches the expected result
 * Note any missing validation, incorrect conversions, or unhandled edge cases
 
-### **2. Test Coverage Areas**
+## **2. Test Coverage Areas**
 
 The manual tests cover the following categories:
 
@@ -67,7 +67,7 @@ The manual tests cover the following categories:
 * Does the UI allow impossible values to be typed?
 * Does the UI crash or freeze?
 
-### **3. Detailed Test Cases**
+## **3. Detailed Test Cases**
 
 
 
