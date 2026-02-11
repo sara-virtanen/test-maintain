@@ -79,8 +79,6 @@ The manual tests cover the following categories:
 | Standard black | `0, 0, 0` | `#000000` | Pass |
 | Mixed values | `12, 200, 99` | `#0CC863` | Pass |
 | Leading zeros | `003, 045, 255` | `#032DFF` | Pass |
-| Boundary low | `0, 0, 255` | `#0000FF` | Pass |
-| Boundary high | `255, 0, 0` | `#FF0000` | Pass |
 
 **Invalid RGB Inputs**
 
@@ -105,8 +103,6 @@ The manual tests cover the following categories:
 | Mixed case | `#aBc123` | `171,193,35` | Pass |
 | Lower case | `#ffffff` | `255,255,255` | Pass |
 | Without # | `FFAACC` | `255,170,204` | Pass |
-| Boundary low | `#0000FF` | `0,0,255` | Pass |
-| Boundary high | `#FF0000` | `255,0,0` | Pass |
 | Three letters | `#FFF` | `255,255,255` | Pass |
 
 **Invalid HEX Inputs**
