@@ -87,8 +87,8 @@ The manual tests cover the following categories:
 | Above max | `300, 0, 0` | Error | Pass |
 | Decimal | `12.5, 0, 0` | Error | Pass |
 | Letters | `A, 20, 30` | Rejected | Pass |
-| Empty fields | `"", "", ""` | Error | Pass |
-| Only one field | `255, "", ""` | Error | Pass |
+| One empty field | `"", "100", "100"` | Error | Pass |
+| Empty input | `"", "", ""` | Error | Pass |
 | Whitespace | `" ", 20, 20` | Rejected | Pass |
 
 ### **HEX → RGB Converter**
