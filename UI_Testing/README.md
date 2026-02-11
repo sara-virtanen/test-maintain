@@ -101,17 +101,19 @@ I also ran the web page through [DebugBear](https://www.debugbear.com/test/websi
 
 # **Task 2 – Selenium WebDriver Testing**
 
-For this task, I am using an AI (Copilot) generated HTML web page that is styled with CSS. I will continue to use the same web page in exercise 5. Initially I planned to do Task 1 on this web page, but this page would have been too boring in terms of performance or anything to optimize.
+For this task, I used an AI-generated HTML/CSS web page as the target application. This same page will be reused in Exercise 5. Initially I also planned to do Task 1 on this web page, but that would have been too boring in terms of performance or anything to optimize.
 
 ![Web Page UI](https://github.com/sara-virtanen/sara-virtanen.github.io/blob/97ef15d7543ef1720f88136763b2d8e12fa2381e/Images/UI_Testing/Test_Website_Overview.png)
 
 ## Prerequisites
 
-- Python 3.x.x installed (I have 3.13.7)
+- Python 3.x.x (I used 3.13.7)
+- Node.js + npm
+- Google Chrome
 
 ## Setting Up The Virtual Environment
 
-Inside the directory, I used Git Bash to run:
+I used Git Bash to run:
 
 ```
 python3 -m venv selenium-env
@@ -120,14 +122,18 @@ pip install --upgrade pip
 pip install selenium webdriver-manager pytest
 ```
 
-## Using a Local Server
+## Serving the Web Page Locally
 
 I used a simple local Express server written in JavaScript to serve the web page so Selenium is able to interact with it.
 
 ```
 npm init -y
 npm install express
-```
+```  
+
+The server exposes the project directory at:
+
+```http://localhost:3000```
 
 ## Starting the server
 
@@ -139,26 +145,28 @@ npm install express
 
 ## **1. Overview of the Tested Application**
 
-I created a simple UI Testing Playground website with:
+The UI Testing Playground includes:
 
-- Cookie banner  
-- Navigation bar  
-- RGB → HEX converter  
-- HEX → RGB converter  
-- Embedded video  
-- Nested layout section
-
+- A cookie banner
+- A navigation bar
+- RGB → HEX converter (logic tested in Exercise 5)
+- HEX → RGB converter (logic tested in Exercise 5)
+- An embedded YouTube video
+- A deeply nested layout section
+- Several interactive UI elements
 
 ## **2. Selenium Test Suite**
 
-The test suite includes:
+These tests validate:
 
-- Page metadata tests  
-- Cookie banner interaction  
-- Navigation tests  
-- RGB → HEX conversion tests  
-- HEX → RGB conversion tests  
-- UI element visibility tests  
+- Page metadata
+- Cookie banner visibility
+- Navigation behavior
+- Input field interaction  
+- Button clickability  
+- Section visibility
+- Video iframe presence
+- Nested layout rendering  
 
 
 ## **3. Screenshot of Selenium Tests in Action**
@@ -169,7 +177,6 @@ The test suite includes:
 ## **4. Findings & Observations**
 
 (Add your own conclusions here.)
-
 
 ---
 
