@@ -61,9 +61,7 @@ The manual tests cover the following categories:
 * Does the converter show an error message?
 * Does it silently fail?
 * Does it produce incorrect output?
-* Does the UI clear previous results?
 * Does the UI allow impossible values to be typed?
-* Does the UI crash or freeze?
 
 ## **3. Detailed Test Cases**
 
