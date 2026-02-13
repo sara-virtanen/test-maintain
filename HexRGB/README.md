@@ -30,6 +30,7 @@ HexRGB/
     ├── test/
     │   ├── unit.test.js
     │   └── integration.test.js
+    ├── package-lock.json
     ├── package.json
     └── README.md
 ```
