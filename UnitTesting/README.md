@@ -30,6 +30,7 @@ test-maintain/
     │   │   ├── mylib.js
     │   ├── test/
     │   │   └── mylib.assert.test.js
+    │   ├── package-lock.json
     │   └── package.json
     └── .gitignore
 ```
