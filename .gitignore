@@ -1,9 +1,6 @@
 # Dependency directories
 node_modules/
 
-# Node.js package lock file
-package-lock.json
-
 # History files
 .history
 
