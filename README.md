@@ -17,6 +17,6 @@
 
 - [ ] VI - Logging
 
-- [ ] VII - Versioning and Licensing
+- [x] VII - Versioning and Licensing - Returned as PDF on Moodle (2026-02-20)
 
 - [ ] VIII - Deployment
