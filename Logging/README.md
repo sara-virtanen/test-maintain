@@ -64,15 +64,15 @@ I used the logger to emit messages at different severity levels: `info`, `warn` 
 
 - `logger.log('info', ...)` and `logger.info(...)`  
 
-  - record general operational messages that describe normal application behavior  
+  - Record general operational messages that describe normal application behavior  
 
 - `logger.log('warn', ...)` and `logger.warn(...)`  
 
-  - highlight situations that are unusual or potentially problematic but do not stop the application from running  
+  - Highlight situations that are unusual or potentially problematic but do not stop the application from running  
 
 - `logger.log('error', ...)` and `logger.error(...)`  
 
-  - capture failures or issues that prevent part of the application from functioning correctly and may require immediate attention  
+  - Capture failures or issues that prevent part of the application from functioning correctly and may require immediate attention  
 
 ## Creating the Logging Configuration  
 
