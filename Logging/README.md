@@ -43,7 +43,7 @@ test-maintain
 
 ## Setting Up The Environment
 
-In my new project folder `Logging`, which is inside my git initialized repo, I used git bash to run:  
+In my new project folder `Logging/Task1`, which is inside my git initialized repo, I used git bash to run:  
 
 `npm init -y`  
 
