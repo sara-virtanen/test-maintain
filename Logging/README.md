@@ -92,13 +92,17 @@ After running the application, I confirmed that the logs were output into the co
 ## Screenshots  
 
 ### Console Log Output  
-![Console Logging](https://github.com/user-attachments/assets/8e012d27-1acd-4b71-b72a-b5f30e575065)  
+
+![Console Log Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
 
 ### Log Files Successfully Created  
-![Console_Output_Logging](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
+
+![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
 
 ### Log File Contents  
-![Log_Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
+
+![Log File Contents](https://github.com/user-attachments/assets/8e012d27-1acd-4b71-b72a-b5f30e575065)  
+
 
 
 # EVERYTHING UNDER THIS IS WIP
