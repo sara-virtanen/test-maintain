@@ -19,8 +19,8 @@ The purpose of this task is to create a Node.js application and integrate Winsto
 ```
 test-maintain
     ├── Logging
-    │   ├── package-lock.json
     │   ├── package.json
+    │   ├── package-lock.json
     │   ├── README.md
     │   └── src
     │       ├── logger.js
