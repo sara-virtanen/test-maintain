@@ -93,11 +93,11 @@ After running the application, I confirmed that the logs were output into the co
 
 ### Console Log Output  
 
-![Console Log Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
+![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
 
 ### Log Files Successfully Created  
 
-![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
+![Console Log Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
 
 ### Log File Contents  
 
