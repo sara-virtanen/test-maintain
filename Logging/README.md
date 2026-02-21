@@ -14,7 +14,7 @@ This exercise consists of two tasks:
 
 The purpose of this task is to create a Node.js application and integrate Winston to capture various events into output log files.  
 
-### Project Structure  
+## Project Structure  
 
 ```
 test-maintain
@@ -28,7 +28,7 @@ test-maintain
     └── .gitignore
 ```
 
-### Actions Performed  
+## Actions Performed  
 
 - Set up the Node.js project  
 - Create a logging configuration  
