@@ -93,13 +93,19 @@ After running the application, I confirmed that the logs were output into the co
 
 ### Console Log Output  
 
+Running `main.js` logs to console with timestamps  
+
 ![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
 
 ### Log Files Successfully Created  
 
+Log files `logs/error.log` and `logs/combined.log` created  
+
 ![Console Log Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
 
 ### Log File Contents  
+
+Log files contain JSON log entries with timestamps. `error.log` only contains error messages, `combined.log` captures all logs entries.  
 
 ![Log File Contents](https://github.com/user-attachments/assets/8e012d27-1acd-4b71-b72a-b5f30e575065)  
 
