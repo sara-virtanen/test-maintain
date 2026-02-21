@@ -35,9 +35,9 @@ test-maintain
 - Implement logging in the application  
 - Run the application  
 
-### Requirements
+### Requirements / Versions Used
 
-- Node.js 18 + npm  
+- Node.js 22.19.0 + npm  
 - Winston 3.11.0  
 
 ## Setting Up The Environment
