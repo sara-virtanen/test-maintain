@@ -50,13 +50,15 @@ In my new project folder `Logging`, which is inside my git initialized repo, I u
 
 `npm install --save winston@3.11.0`  
 
-## Creating the Logging Configuration  
+## The Logging Application
+
+### Creating the Logging Configuration  
 
 I created a file called `logger.js` in the `src/` directory and configured it to create logs using Winston.  
 
 I defined the logger to operate at the `"info"` level, which means it records all messages at the info level and every level above it in Winston’s severity hierarchy. The logger applies timestamped JSON formatting to each entry and writes its output to multiple destinations. The console transport displays logs during development, while `error.log` stores only error‑level messages and `combined.log` records all logged events.  
 
-## Creating the Application and Implementing Logging  
+### Creating the Application and Implementing Logging  
 
 I created a main program file called `main.js` in the `src/` directory and integrated the logger into the application.  
 
