@@ -46,7 +46,7 @@ In my new project folder `Logging`, which is inside my git initialized repo, I u
 
 `npm init -y`  
 
-## Installing Winston 3.11.0  
+### Installing Winston 3.11.0  
 
 `npm install --save winston@3.11.0`  
 
@@ -74,7 +74,7 @@ I used the logger to emit messages at different severity levels: `info`, `warn` 
 
   - Capture failures or issues that prevent part of the application from functioning correctly and may require immediate attention  
 
-## Creating the Logging Configuration  
+## Running the Application 
 
 Finally, I ran the application to see the logging in action.  
 
