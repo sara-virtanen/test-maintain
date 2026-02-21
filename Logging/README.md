@@ -19,12 +19,13 @@ The purpose of this task is to create a Node.js application and integrate Winsto
 ```
 test-maintain
     ├── Logging
-    │   ├── package.json
-    │   ├── package-lock.json
-    │   ├── README.md
-    │   └── src
-    │       ├── logger.js
-    │       └── main.js
+    |   ├── README.md
+    |   └── Task1
+    │       ├── package.json
+    │       ├── package-lock.json
+    │       └── src
+    │           ├── logger.js
+    │           └── main.js
     └── .gitignore
 ```
 
