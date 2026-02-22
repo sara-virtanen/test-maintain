@@ -5,7 +5,7 @@
 
 # **Task 1 – Logging**
 
-The purpose of this task is to create a Node.js application, integrate Winston to capture various events into cnsole output and log files and test the functionality of the created application and verify that logging works as intended.  
+The purpose of this task is to create a Node.js application, integrate Winston to capture various events into console output and log files and test the functionality of the created application and verify that logging works as intended.  
 
 ### Project Structure  
 
