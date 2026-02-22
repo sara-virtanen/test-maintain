@@ -82,9 +82,11 @@ Alternatively:
 `cd src` Change directory to `src`  
 `node main.js` Run the application in the directory  
 
-## Testing: Smoke Test & Manual Functional Testing
+## Smoke Test / Manual Functional Testing
 
-For testing, I performed manual functional testing by running the application. After running the application, I confirmed that the logs were output into the console and that the log files (`logs/error.log` and `logs/combined.log`) were created and contained the specified log entries with timestamps. Running the application was a simple smoke test which confirmed that the application functioned without errors, and its core functionality, logging, worked as expected.  
+I chose manual testing because the application will undergo expansion and more rigorous testing in Task 2, and at this stage it is sufficient to verify that this iteration works.  
+
+I performed manual functional testing by running the application. After running the application, I confirmed that the logs were output into the console and that the log files (`logs/error.log` and `logs/combined.log`) were created and contained the specified log entries with timestamps. Running the application was a simple smoke test which confirmed that the application functioned without errors, and its core functionality, logging, worked as expected.  
 
 ## Screenshots  
 
@@ -102,7 +104,7 @@ Log files `logs/error.log` and `logs/combined.log` created
 
 ### Log File Contents  
 
-Log files contain JSON log entries with timestamps. `error.log` only contains error messages, `combined.log` captures all logs entries.  
+Log files contain JSON log entries with timestamps. `error.log` only contains `error` level messages, `combined.log` captures all logs entries.  
 
 ![Log File Contents](https://github.com/user-attachments/assets/8e012d27-1acd-4b71-b72a-b5f30e575065)  
 
