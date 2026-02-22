@@ -98,7 +98,7 @@ Running `main.js` logs to console with timestamps
 
 ### Log Files Successfully Created  
 
-Log files `logs/error.log` and `logs/combined.log` created. .gitignore works and excludes tracking from reproducible files (grayed out).  
+Log files `logs/error.log` and `logs/combined.log` created. .gitignore works and excludes reproducible files (grayed out) from tracking.  
 
 ![Console Log Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
 
