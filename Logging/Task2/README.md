@@ -1,49 +1,55 @@
-# **Exercise 6 – Logging: Task 1**
+# **Exercise 6 – Logging: Task 2**
 
 **Author:** Sara Virtanen  
 **Course:** AT00BY10-3012 Ohjelmistojen ylläpito ja testaus
 
-# **Task 1 – Logging**
+# **Task 2 – Tally counter REST API**
 
-The purpose of this task is to create a Node.js application, integrate Winston to capture various events into output log files and test the functionality of the created application and verify that logging works as intended.  
+The purpose of this task is to create a tally counter REST API with Express.  
 
 ### Project Structure  
 
 ```
 test-maintain
     ├── Logging
-    |   └── Task1
+    |   ├── Task1/
+    |   └── Task2
     │       ├── package.json
     │       ├── package-lock.json
-    |       ├── README.md
+    │       ├── README.md
+    │       ├── rest.http
     │       └── src
+    │           ├── counter.js
     │           ├── logger.js
-    │           └── main.js
+    │           ├── main.js
+    │           └── routes.js
     └── .gitignore
 ```
 
 ### Actions Performed  
 
-- Set up the Node.js project  
-- Create a logging configuration  
-- Implement logging in the application  
-- Run the application to test it
-- Verify that logs were printed and created  
+- WIP
+- WIP  
+- WIP
+- WIP
 
 ### Requirements / Versions Used
 
 - Node.js 22.19.0 + npm  
+- Express 4.18.2  
 - Winston 3.11.0  
+- Mocha x  
+- Chai x  
 
 ## Setting Up The Environment
 
-In my new project folder `Logging/Task1`, which is inside my git initialized repo, I used git bash to run:  
+In my new project folder `Logging/Task2`, which is inside my git initialized repo, I used git bash to run:  
 
 `npm init -y`  
 
-### Installing Winston 3.11.0  
+### Installing Express 4.18.2 & Winston 3.11.0
 
-`npm install --save winston@3.11.0`  
+`npm install --save express@4.18.2 winston@3.11.0`  
 
 ## The Logging Application
 
