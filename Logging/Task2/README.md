@@ -184,7 +184,7 @@ All routes import the Express Router, the counter module, and the logger module.
 - **Endpoint access:** Records which endpoint was called  
 - **Counter operation:** Records the specific counter action and its result
 
-### Endpoint Definitions
+## Endpoint Definitions
 
 **GET `/counter-increase`**
 
