@@ -12,7 +12,7 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 - [Project Structure](#project-structure)  
 - [Environment](#environment)
 - [Logging Application](#the-logging-application)
-- Testing
+- [Endpoint Testing](#endpoint-testing)
 - WIP
 - WIP  
 - WIP  
