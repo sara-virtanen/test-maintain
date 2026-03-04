@@ -92,9 +92,7 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 `npm install --save express@4.18.2 winston@3.11.0 mocha@11.7.5 chai@6.2.2`  
 
-## Modules
-
-### Express
+## Express
 
 I tested the Express "Hello World" app by OpenJS Foundation by creating an Express application in `main.js`.
 
