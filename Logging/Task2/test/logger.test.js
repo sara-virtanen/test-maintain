@@ -1,4 +1,6 @@
 // logger.test.js
+// 2026-04-03
+// Author: Sara Virtanen
 // Unit tests for the logger module
 
 const { expect } = require("chai");

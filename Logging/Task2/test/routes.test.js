@@ -1,4 +1,6 @@
 // routes.test.js
+// 2026-04-03
+// Author: Sara Virtanen
 // Integration tests for the Express routes (endpoints)
 // Uses the exported app from main.js with Node's built-in http module to make requests without starting a persistent server
 

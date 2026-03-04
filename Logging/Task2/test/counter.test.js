@@ -1,4 +1,6 @@
 // counter.test.js
+// 2026-04-03
+// Author: Sara Virtanen
 // Unit tests for the counter module (controller)
 
 const { expect } = require("chai");

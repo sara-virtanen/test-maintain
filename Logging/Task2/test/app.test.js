@@ -1,4 +1,6 @@
 // app.test.js
+// 2026-04-03
+// Author: Sara Virtanen
 // Integration tests for the Express application (main.js)
 // Verifies that the app is properly configured and exports correctly for testing
 
