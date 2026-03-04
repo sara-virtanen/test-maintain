@@ -367,11 +367,11 @@ This approach provides a quick and convenient way to test the API without leavin
 ![SCR_10_RESTREAD](https://github.com/user-attachments/assets/94b88f9d-b3d7-4c4f-aa64-ac9e43e83285)  
 
 
-### Unit and Integration Testing  
+## Unit and Integration Testing  
 
 Unit and integration tests are implemented using Mocha as the test runner and Chai for assertions.
 
-#### Running Tests
+### Running Tests
 
 To execute all tests, run:
 
