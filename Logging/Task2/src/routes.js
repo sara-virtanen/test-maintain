@@ -10,7 +10,7 @@ const router = express.Router();
 const counter = require("./counter");
 const logger = require("./logger");
 
-// Define the route for increasing the counter value, including logging for the endpoint and the counter increase operation
+// Increase the counter value by 1 and return the new value as JSON, including logging for the endpoint and the counter increase operation
 
 router.get("/counter-increase", (req, res) => {
   logger.info("[ENDPOINT] GET '/counter-increase'");
@@ -19,7 +19,7 @@ router.get("/counter-increase", (req, res) => {
   res.json({ counter: value });
 });
 
-// Define the route for reading the counter value, including logging for the endpoint and the counter read operation
+// Read the counter value and return it as JSON, including logging for the endpoint and the counter read operation
 
 router.get("/counter-read", (req, res) => {
   logger.info("[ENDPOINT] GET '/counter-read'");
@@ -28,7 +28,7 @@ router.get("/counter-read", (req, res) => {
   res.json({ counter: value });
 });
 
-// Define the route for resetting the counter value, including logging for the endpoint and the counter reset operation
+// Reset the counter value to 0 and return the reset value as JSON, including logging for the endpoint and the counter reset operation
 
 router.get("/counter-reset", (req, res) => {
   logger.info("[ENDPOINT] GET '/counter-reset'");
