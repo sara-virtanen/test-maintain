@@ -156,7 +156,7 @@ Both signals log a shutdown message and exit cleanly to ensure proper resource c
 
 ![sigint](https://github.com/user-attachments/assets/7a55e699-fba7-441c-9ec3-fac47cf4ce80)  
 
-### Logging Configuration  
+## Logging Configuration  
 
 I reused the `logger.js` configuration from Task 1, which was originally authored by Petri Rantanen, the instructor of this course. This module sets up a Winston logger instance that captures application events.
 
