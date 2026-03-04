@@ -293,6 +293,7 @@ Manual testing was performed using Postman:
 3. Observe the JSON responses and verify the counter behavior
 4. Check the console output and log files to verify that operations are being logged correctly
 
+  
 **`http://localhost:3000/counter-read` – Read the current counter value**  
 
 ![SCR_4_POSTMAN_READ](https://github.com/user-attachments/assets/c052f366-639c-4521-a231-d9ce821eeca3)  
