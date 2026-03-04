@@ -306,6 +306,15 @@ Manual testing was performed using Postman:
 
 ![SCR_6_POSTMAN_RESET](https://github.com/user-attachments/assets/45f1a1a2-faa3-400d-a718-d4feee18d206)  
 
+**Check the console output**  
+
+![SCR_7_POSTMAN_CONSOLE](https://github.com/user-attachments/assets/bbd65fb1-ae87-40ce-bb27-f5243604e9e5)  
+
+**Check the log files**  
+
+![SCR_8_LOGS](https://github.com/user-attachments/assets/49d0eab4-8b4d-4265-829d-842b170eb8a9)
+
+
 #### Using REST Client plugin for VSCode
 
 The `rest.http` file contains pre‑configured HTTP requests for testing all three endpoints. This file can be used with the [REST Client extension for VSCode](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
