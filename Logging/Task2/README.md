@@ -385,21 +385,28 @@ The test suite is organized into four test files:
 - Tests the counter module in isolation  
 - Verifies that `increase()`, `read()`, and `reset()` work correctly  
 - Ensures the counter maintains state between operations  
-- Tests edge cases and boundary conditions
+- Tests edge cases and boundary conditions  
+
+![SCR_COUNTER_TEST](https://github.com/user-attachments/assets/53c51e8e-ceba-4e21-a1d7-8a79dbe06f6b)  
 
 **`logger.test.js`**
 
 - Tests the logger configuration  
 - Verifies that log levels are set correctly  
 - Ensures that transports are configured as expected  
-- Confirms that log messages are formatted properly
+- Confirms that log messages are formatted properly  
+
+![SCR_LOGGER_TEST](https://github.com/user-attachments/assets/529da0a0-51cf-4bd2-a730-0a08e86e7b79)  
 
 **`routes.test.js`**
 
 - Tests the route definitions without starting the server  
 - Verifies that routes are correctly mapped to handlers  
 - Ensures that the router exports the expected endpoints  
-- Tests route handler functions in isolation
+- Tests route handler functions in isolation  
+
+![SCR_ROUTES_TEST](https://github.com/user-attachments/assets/16ba4ca6-7cfa-4e7f-bfe3-68d92ae119ff)  
+
 
 **`app.test.js`**
 
@@ -408,7 +415,9 @@ The test suite is organized into four test files:
 - Tests all three endpoints with various input scenarios  
 - Verifies JSON responses match expected formats  
 - Ensures logging occurs when endpoints are called  
-- Tests error handling and edge cases
+- Tests error handling and edge cases  
+
+![SCR_APP_TEST](https://github.com/user-attachments/assets/45e12625-cac2-4687-bfbe-7049dce00a27)  
 
 #### Test Structure
 
