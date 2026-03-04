@@ -17,7 +17,7 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 - WIP  
 - WIP  
 
-### Project Structure  
+## Project Structure  
 
 ```
 test-maintain
