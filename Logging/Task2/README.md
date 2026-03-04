@@ -32,11 +32,16 @@ test-maintain
     │       ├── package-lock.json
     │       ├── README.md
     │       ├── rest.http
-    │       └── src
-    │           ├── counter.js
-    │           ├── logger.js
-    │           ├── main.js
-    │           └── routes.js
+    │       ├── src
+    │       │   ├── counter.js
+    │       │   ├── logger.js
+    │       │   ├── main.js
+    │       │   └── routes.js
+    │       └── test
+    │           ├── app.test.js
+    │           ├── counter.test.js
+    │           ├── logger.test.js
+    │           └── routes.test.js
     └── .gitignore
 ```
 
