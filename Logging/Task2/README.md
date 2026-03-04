@@ -100,9 +100,11 @@ Alternatively:
 `cd src` Change directory to `src`  
 `node main.js` Run the application in the directory  
 
-## Manual Testing with Postman and REST Client plugin
+## Endpoint Testing
 
-For testing, I performed manual functional testing by running the application. After running the application, I confirmed that the logs were output into the console and that the log files (`logs/error.log` and `logs/combined.log`) were created and contained the specified log entries with timestamps. Running the application was a simple smoke test which confirmed that the application functioned without errors, and its core functionality, logging, worked as expected.  
+ with Postman and REST Client plugin
+
+
 
 ## Screenshots  
 
