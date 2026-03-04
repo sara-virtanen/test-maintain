@@ -76,36 +76,271 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 ### Express – Hello World
 
+I started by creating a basic Express application in `main.js` that imports the Express library, creates an application instance, and configures it to listen on port 3000.
 
+The application is structured to export the Express `app` instance without automatically starting the server. This design allows the application to be imported and tested without binding to a port, which is essential for running automated tests.
+
+The server only starts when `main.js` is executed directly (checked using `require.main === module`). This conditional startup ensures that when the app is imported by test files, it doesn't attempt to start the server.
+
+#### Server Error Handling
+
+The application includes error handling for common server issues:
+
+- **Port conflicts (EADDRINUSE):** If port 3000 is already in use, the application logs an error and exits gracefully
+- **General server errors:** Any other server errors are caught, logged, and result in a controlled shutdown
+
+#### Graceful Shutdown
+
+The application listens for termination signals and handles them appropriately:
+
+- **SIGINT:** Triggered when the user presses Ctrl+C in the terminal
+- **SIGTERM:** Triggered by system termination signals, such as `kill` commands or container shutdowns
+
+Both signals log a shutdown message and exit cleanly to ensure proper resource cleanup.
 
 ### Logging Configuration  
 
-I created a file called `logger.js` in the `src/` directory and configured it to create logs using Winston.  
+I reused the `logger.js` configuration from Task 1, which was originally authored by Petri Rantanen for educational purposes. This module sets up a Winston logger instance that captures application events.
 
-I defined the logger to operate at the `"info"` level, which means it records all messages at the info level and every level above it in Winston’s severity hierarchy. The logger applies timestamped JSON formatting to each entry and writes its output to multiple destinations. The console transport displays logs during development (not used in Task 2), while `error.log` stores only error‑level messages and `combined.log` records all logged events.  
+The logger operates at the `"info"` level, which means it records all messages at the info level and every level above it in Winston's severity hierarchy (info, warn, error).
+
+The logger combines two formatting options:
+
+- **Timestamps:** Each log entry includes a timestamp showing when the event occurred  
+- **JSON formatting:** Log entries are structured as JSON objects for easier parsing and analysis
+
+#### Log Transports
+
+The logger uses three transport mechanisms to output log messages:
+
+- **Console transport:** Logs all messages to the console for real‑time monitoring during development and debugging  
+- **Error log file (`logs/error.log`):** Captures only error‑level messages for focused troubleshooting  
+- **Combined log file (`logs/combined.log`):** Records all log messages regardless of severity level, providing a complete audit trail
+
+This multi‑transport approach ensures that logs are both visible during development and preserved for later analysis.
 
 ### Express Routes  
 
+The `routes.js` module defines three REST API endpoints for interacting with the tally counter. Each endpoint is implemented as a GET route that performs a specific counter operation and returns the result as JSON.
 
+All routes import the Express Router, the counter module, and the logger module. Each endpoint logs two types of information:
+
+- **Endpoint access:** Records which endpoint was called  
+- **Counter operation:** Records the specific counter action and its result
+
+#### Endpoint Definitions
+
+**GET `/counter-increase`**
+
+- Increases the counter value by 1  
+- Returns the new counter value as JSON: `{ "counter": value }`  
+- Logs the endpoint call and the increase operation with the resulting value
+
+**GET `/counter-read`**
+
+- Reads the current counter value without modifying it  
+- Returns the current counter value as JSON: `{ "counter": value }`  
+- Logs the endpoint call and the read operation with the current value
+
+**GET `/counter-reset`**
+
+- Resets the counter value to 0  
+- Returns the reset counter value as JSON: `{ "counter": 0 }`  
+- Logs the endpoint call and the reset operation
+
+The router is exported and imported by `main.js`, where it is mounted at the root path (`/`).
 
 ### Counter Behaviour  
 
+The `counter.js` module implements a simple in‑memory tally counter with three core operations. It maintains a private counter state using a module‑level variable initialized to 0.
 
+#### Counter Operations
+
+**`increase()`**
+
+- Increments the counter by 1 using the pre‑increment operator  
+- Returns the new counter value immediately after incrementing  
+- Example: if count is 5, `increase()` returns 6
+
+**`read()`**
+
+- Returns the current counter value without modification  
+- Allows the application to check the counter state without side effects  
+- Example: if count is 5, `read()` returns 5
+
+**`reset()`**
+
+- Sets the counter value back to 0  
+- Returns the reset value (0) to confirm the operation  
+- Example: regardless of the current value, `reset()` sets count to 0 and returns 0
+
+All three functions are exported as an object so they can be imported and used by the routes module.
+
+#### Implementation Details
+
+The counter state is maintained in a closure‑like pattern using a module‑level variable. This means:
+
+- The counter value persists across multiple HTTP requests  
+- Each instance of the application maintains its own counter  
+- Restarting the server resets the counter to 0  
+- The counter is not persisted to a database or file
+
+This simple implementation is suitable for demonstration and testing purposes. In a production environment, the counter state would typically be stored in a database to persist across server restarts and support multiple application instances.
 
 ### Endpoint Logging  
 
+Each endpoint in the API logs two pieces of information whenever it is called:
 
+1. **Endpoint access log:** Records that a specific HTTP endpoint was accessed  
+2. **Counter operation log:** Records the counter operation that was performed and its result
+
+#### Log Message Format
+
+Endpoint access logs follow this format:
+
+```
+[ENDPOINT] GET '/counter-increase'
+[ENDPOINT] GET '/counter-read'
+[ENDPOINT] GET '/counter-reset'
+```
+
+Counter operation logs follow these formats:
+
+```
+[COUNTER] increase 1
+[COUNTER] read 0
+[COUNTER] zeroed 0
+```
+
+The prefix tags (`[ENDPOINT]` and `[COUNTER]`) make it easy to filter and search through log files when troubleshooting or analyzing application behavior.
+
+#### Server Lifecycle Logging
+
+The main application also logs server lifecycle events:
+
+```
+[MAIN] Starting
+[MAIN] Stopping
+[MAIN] Port 3000 is already in use
+[MAIN] Server error: <error message>
+```
+
+These logs provide visibility into when the server starts, stops, or encounters problems during initialization.
+
+All logs are written to:
+
+- The console for real‑time monitoring  
+- `logs/combined.log` for all log levels  
+- `logs/error.log` for error‑level messages only
+
+This comprehensive logging approach makes it easy to trace application behavior, debug issues, and maintain an audit trail of all operations.
 
 ## Testing  
 
 ### Manual Endpoint Testing  
 
-using Postman and REST Client plugin for VSCode
+#### Using Postman
+
+Manual testing can be performed using Postman or any HTTP client:
+
+1. Start the server with `node src/main.js`
+2. Send GET requests to the following endpoints:
+   - `http://localhost:3000/counter-read` – Read the current counter value
+   - `http://localhost:3000/counter-increase` – Increase the counter by 1
+   - `http://localhost:3000/counter-reset` – Reset the counter to 0
+3. Observe the JSON responses and verify the counter behavior
+4. Check the console output and log files to verify that operations are being logged correctly
+
+#### Using REST Client plugin for VSCode
+
+The `rest.http` file contains pre‑configured HTTP requests for testing all three endpoints. This file can be used with the [REST Client extension for VSCode](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+
+**Contents of `rest.http`:**
+
+```http
+### Read the current counter value
+GET http://localhost:3000/counter-read
+
+### Increase the counter by one
+GET http://localhost:3000/counter-increase
+
+### Reset the counter to zero
+GET http://localhost:3000/counter-reset
+```
+
+To use this file:
+
+1. Install the REST Client extension in VSCode
+2. Open `rest.http` in VSCode
+3. Click "Send Request" above any of the requests
+4. View the response in the adjacent panel
+
+This approach provides a quick and convenient way to test the API without leaving the code editor.
 
 ### Unit and Integration Testing  
 
-using mocha and chai
+Unit and integration tests are implemented using Mocha as the test runner and Chai for assertions.
+
+#### Running Tests
+
+To execute all tests, run:
+
+```
+npm test
+```
+
+This command runs Mocha, which automatically discovers and executes all test files in the `test/` directory.
+
+#### Test Coverage
+
+The test suite is organized into four test files:
+
+**`counter.test.js`**
+
+- Tests the counter module in isolation  
+- Verifies that `increase()`, `read()`, and `reset()` work correctly  
+- Ensures the counter maintains state between operations  
+- Tests edge cases and boundary conditions
+
+**`logger.test.js`**
+
+- Tests the logger configuration  
+- Verifies that log levels are set correctly  
+- Ensures that transports are configured as expected  
+- Confirms that log messages are formatted properly
+
+**`routes.test.js`**
+
+- Tests the route definitions without starting the server  
+- Verifies that routes are correctly mapped to handlers  
+- Ensures that the router exports the expected endpoints  
+- Tests route handler functions in isolation
+
+**`app.test.js`**
+
+- Integration tests that verify the entire application stack  
+- Uses Supertest or similar to make HTTP requests to the API  
+- Tests all three endpoints with various input scenarios  
+- Verifies JSON responses match expected formats  
+- Ensures logging occurs when endpoints are called  
+- Tests error handling and edge cases
+
+#### Test Structure
+
+Each test file follows a consistent structure:
+
+- **Setup (`before` or `beforeEach`):** Prepares the test environment, such as resetting the counter state
+- **Test cases (`it` blocks):** Individual tests that verify specific behavior
+- **Teardown (`after` or `afterEach`):** Cleans up after tests, such as closing server connections
+
+The test suite ensures that:
+
+- Individual modules work correctly in isolation (unit tests)
+- The application works correctly as a whole (integration tests)
+- Logging captures all relevant events
+- Error conditions are handled gracefully
+- The API returns correctly formatted responses
 
 ---
 
-**Last updated:** 2026‑04-03
+**Last updated:** 2026‑04‑03
