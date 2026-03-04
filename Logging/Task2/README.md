@@ -13,7 +13,7 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 - [Environment](#environment)
 - [Modules](#modules)  
   - [Express - Hello World](#express--hello-world)
-  - [Logging Application](#the-logging-application)
+  - [Logging Configuration](#logging-configuration)
   - Express Routes
   - Counter Behaviour
   - Endpoint Logging
@@ -75,9 +75,7 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 
 
-### The Logging Application
-
-### Creating the Logging Configuration  
+### Logging Configuration  
 
 I created a file called `logger.js` in the `src/` directory and configured it to create logs using Winston.  
 
@@ -101,16 +99,17 @@ I used the logger to emit messages at different severity levels: `info`, `warn` 
 
   - Capture failures or issues that prevent part of the application from functioning correctly and may require immediate attention  
 
-## Running the Application 
+### Express Routes  
 
-Finally, I ran the application to see the logging in action.  
 
-`node src/main.js`  
 
-Alternatively:  
+### Counter Behaviour  
 
-`cd src` Change directory to `src`  
-`node main.js` Run the application in the directory  
+
+
+### Endpoint Logging  
+
+
 
 ## Endpoint Testing
 
