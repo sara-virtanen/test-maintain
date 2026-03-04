@@ -110,22 +110,15 @@ I used the logger to emit messages at different severity levels: `info`, `warn` 
 ### Endpoint Logging  
 
 
+## Testing  
 
-## Endpoint Testing
-
- with Postman and REST Client plugin
-
+### Manual Endpoint Testing  
 
 
-## Screenshots  
 
-### Console Log Output  
+### Unit and Integration Testing  
 
-Running `main.js` logs to console with timestamps  
 
-![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
-
-## Testing
 
 ---
 
