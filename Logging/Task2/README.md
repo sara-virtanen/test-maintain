@@ -32,11 +32,16 @@ test-maintain
     │       ├── package-lock.json
     │       ├── README.md
     │       ├── rest.http
-    │       └── src
-    │           ├── counter.js
-    │           ├── logger.js
-    │           ├── main.js
-    │           └── routes.js
+    │       ├── src
+    │       │   ├── counter.js
+    │       │   ├── logger.js
+    │       │   ├── main.js
+    │       │   └── routes.js
+    │       └── test
+    │           ├── app.test.js
+    │           ├── counter.test.js
+    │           ├── logger.test.js
+    │           └── routes.test.js
     └── .gitignore
 ```
 
@@ -81,25 +86,25 @@ I defined the logger to operate at the `"info"` level, which means it records al
 
 ### Express Routes  
 
-I created a file called `routes.js` in the `src/` directory and configured it to 
+
 
 ### Counter Behaviour  
 
-I created a file called `counter.js` in the `src/` directory and configured it to  
+
 
 ### Endpoint Logging  
 
-I created a file called `main.js` in the `src/` directory and configured it to create logs using Winston.  
+
 
 ## Testing  
 
 ### Manual Endpoint Testing  
 
-
+using Postman and REST Client plugin for VSCode
 
 ### Unit and Integration Testing  
 
-
+using mocha and chai
 
 ---
 
