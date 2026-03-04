@@ -130,7 +130,7 @@ The application is structured to export the Express `app` instance without autom
 
 The server only starts when `main.js` is executed directly (checked using `require.main === module`). This conditional startup ensures that when the app is imported by test files, it doesn't attempt to start the server.
 
-#### Server Error Handling
+### Server Error Handling
 
 Running a server in a console window and attempting to start it again in another one resulted in a server startup error, so I implemented error handling for that particular issue. This was accidental on my part, but a valuable lesson on why error handling matters.
 
@@ -139,7 +139,7 @@ The application includes error handling for common server issues:
 - **Port conflicts (EADDRINUSE):** If port 3000 is already in use, the application logs an error and exits gracefully
 - **General server errors:** Any other server errors are caught, logged, and result in a controlled shutdown
 
-#### Graceful Shutdown
+### Graceful Shutdown
 
 The application listens for termination signals and handles them appropriately:
 
@@ -159,7 +159,7 @@ The logger combines two formatting options:
 - **Timestamps:** Each log entry includes a timestamp showing when the event occurred  
 - **JSON formatting:** Log entries are structured as JSON objects for easier parsing and analysis
 
-#### Log Transports
+### Log Transports
 
 The logger can use three transport mechanisms to output log messages:
 
@@ -178,7 +178,7 @@ All routes import the Express Router, the counter module, and the logger module.
 - **Endpoint access:** Records which endpoint was called  
 - **Counter operation:** Records the specific counter action and its result
 
-#### Endpoint Definitions
+### Endpoint Definitions
 
 **GET `/counter-increase`**
 
@@ -204,7 +204,7 @@ The router is exported and imported by `main.js`, where it is mounted at the roo
 
 The `counter.js` module implements a simple in‑memory tally counter with three core operations. It maintains a private counter state using a module‑level variable initialized to 0. 
 
-#### Counter Operations
+### Counter Operations
 
 **`increase()`**
 
@@ -226,7 +226,7 @@ The `counter.js` module implements a simple in‑memory tally counter with three
 
 All three functions are exported as an object so they can be imported and used by the routes module.
 
-#### Implementation Details
+### Implementation Details
 
 The counter state is maintained in a closure‑like pattern using a module‑level variable. This means:
 
@@ -244,7 +244,7 @@ Each endpoint in the API logs two pieces of information whenever it is called:
 1. **Endpoint access log:** Records that a specific HTTP endpoint was accessed  
 2. **Counter operation log:** Records the counter operation that was performed and its result
 
-#### Log Message Format
+### Log Message Format
 
 Endpoint access logs follow this format:
 
@@ -262,7 +262,7 @@ Counter operation logs follow these formats:
 [COUNTER] zeroed 0
 ```
 
-#### Server Logging
+### Server Logging
 
 The main application also logs server events:
 
@@ -284,7 +284,7 @@ All logs are written to:
 
 ### Manual Endpoint Testing  
 
-#### Using Postman
+### Using Postman
 
 Manual testing was performed using Postman:
 
@@ -379,7 +379,7 @@ To run a specific test, substitute `NAME_HERE` for the specific file name and th
 npx mocha test/NAME_HERE.test.js
 ```
 
-#### Test Coverage
+### Test Coverage
 
 The test suite is organized into four test files:
 
