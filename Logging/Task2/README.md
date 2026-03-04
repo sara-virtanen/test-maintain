@@ -283,7 +283,7 @@ All logs are written to:
 
 #### Using Postman
 
-Manual testing can be performed using Postman or any HTTP client:
+Manual testing was performed using Postman:
 
 1. Start the server with `node src/main.js`
 2. Send GET requests to the following endpoints:
@@ -292,6 +292,18 @@ Manual testing can be performed using Postman or any HTTP client:
    - `http://localhost:3000/counter-reset` – Reset the counter to 0
 3. Observe the JSON responses and verify the counter behavior
 4. Check the console output and log files to verify that operations are being logged correctly
+
+**`http://localhost:3000/counter-read` – Read the current counter value**  
+
+![SCR_4_POSTMAN_READ](https://github.com/user-attachments/assets/c052f366-639c-4521-a231-d9ce821eeca3)  
+
+**`http://localhost:3000/counter-increase` – Increase the counter by 1**  
+
+![SCR_5_POSTMAN_INCREASE](https://github.com/user-attachments/assets/cef69ffc-e52c-4b52-9c1e-f7cd7262592a)  
+
+**`http://localhost:3000/counter-reset` – Reset the counter to 0**  
+
+![SCR_6_POSTMAN_RESET](https://github.com/user-attachments/assets/45f1a1a2-faa3-400d-a718-d4feee18d206)  
 
 #### Using REST Client plugin for VSCode
 
