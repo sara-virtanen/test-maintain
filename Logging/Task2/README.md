@@ -146,7 +146,11 @@ The application listens for termination signals and handles them appropriately:
 - **SIGINT:** Triggered when the user presses Ctrl+C in the terminal
 - **SIGTERM:** Triggered by system termination signals, such as `kill` commands or container shutdowns
 
-Both signals log a shutdown message and exit cleanly to ensure proper resource cleanup.
+Both signals log a shutdown message and exit cleanly to ensure proper resource cleanup.  
+
+**Shutting the Express server down with Ctrl+C**  
+
+![sigint](https://github.com/user-attachments/assets/7a55e699-fba7-441c-9ec3-fac47cf4ce80)  
 
 ### Logging Configuration  
 
