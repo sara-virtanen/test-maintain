@@ -11,13 +11,13 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 
 - [Project Structure](#project-structure)
 - [Environment](#environment)
-- Modules  
+- [Modules](#modules)  
   - [Express - Hello World](#express--hello-world)
   - [Logging Application](#the-logging-application)
   - Express Routes
   - Counter Behaviour
   - Endpoint Logging
-- Testing  
+- [Testing](#testing)  
   - [Manual Endpoint Testing](#endpoint-testing)
   - Unit and Integration Testing
   - WIP  
@@ -69,11 +69,13 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 `npm install --save express@4.18.2 winston@3.11.0 mocha@11.7.5 chai@6.2.2`  
 
-## Express – Hello World
+## Modules
+
+### Express – Hello World
 
 
 
-## The Logging Application
+### The Logging Application
 
 ### Creating the Logging Configuration  
 
@@ -124,6 +126,7 @@ Running `main.js` logs to console with timestamps
 
 ![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
 
+## Testing
 
 ---
 
