@@ -20,8 +20,6 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 - [Testing](#testing)  
   - [Manual Endpoint Testing](#manual-endpoint-testing)
   - [Unit and Integration Testing](#unit-and-integration-testing)
-  - WIP  
-  - WIP  
 
 ## Project Structure  
 
