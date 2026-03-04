@@ -7,6 +7,16 @@
 
 The purpose of this task is to create a tally counter REST API with Express.  
 
+### Table of Contents
+
+- Project Structure  
+- Environment
+- Logging Application
+- Testing
+- WIP
+- WIP  
+- WIP  
+
 ### Project Structure  
 
 ```
@@ -26,12 +36,7 @@ test-maintain
     └── .gitignore
 ```
 
-### Actions Performed  
-
-- WIP  
-- WIP  
-- WIP  
-- WIP  
+## Environment
 
 ### Requirements / Versions Used
 
@@ -39,9 +44,14 @@ test-maintain
 - Express 4.18.2  
 - Winston 3.11.0  
 - Mocha 11.7.5  
-- Chai 6.2.2  
+- Chai 6.2.2
 
-## Setting Up The Environment
+### Other Tools and Plugins
+
+- Postman  
+- [REST Client plugin for VSCode](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)  
+
+### Setting Up The Environment
 
 In my new project folder `Logging/Task2`, which is inside my git initialized repo, I used git bash to run:  
 
@@ -49,7 +59,7 @@ In my new project folder `Logging/Task2`, which is inside my git initialized rep
 
 ### Installing Express, Winston, Mocha and Chai
 
-To install the dependencies in the versions specified above, I ran:  
+To install the specified versions of my dependencies, I ran:  
 
 `npm install --save express@4.18.2 winston@3.11.0 mocha@11.7.5 chai@6.2.2`  
 
@@ -90,7 +100,7 @@ Alternatively:
 `cd src` Change directory to `src`  
 `node main.js` Run the application in the directory  
 
-## Testing: Smoke Test & Manual Functional Testing
+## Manual Testing with Postman and REST Client plugin
 
 For testing, I performed manual functional testing by running the application. After running the application, I confirmed that the logs were output into the console and that the log files (`logs/error.log` and `logs/combined.log`) were created and contained the specified log entries with timestamps. Running the application was a simple smoke test which confirmed that the application functioned without errors, and its core functionality, logging, worked as expected.  
 
@@ -102,18 +112,7 @@ Running `main.js` logs to console with timestamps
 
 ![Log Files Created](https://github.com/user-attachments/assets/3e694cab-6df4-43f6-80e8-2d2b4163f079)  
 
-### Log Files Successfully Created  
-
-Log files `logs/error.log` and `logs/combined.log` created  
-
-![Console Log Output](https://github.com/user-attachments/assets/1489194f-2b34-4f61-9ef7-0683ba00c6b8)  
-
-### Log File Contents  
-
-Log files contain JSON log entries with timestamps. `error.log` only contains error messages, `combined.log` captures all logs entries.  
-
-![Log File Contents](https://github.com/user-attachments/assets/8e012d27-1acd-4b71-b72a-b5f30e575065)  
 
 ---
 
-**Last updated:** 2026‑02‑22
+**Last updated:** 2026‑04-03
