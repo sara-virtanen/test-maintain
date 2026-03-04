@@ -129,6 +129,8 @@ The server only starts when `main.js` is executed directly (checked using `requi
 
 #### Server Error Handling
 
+Running a server in a console window and attempting to start it again in another one resulted in a server startup error, so I implemented error handling for that particular issue. This was accidental on my part, but a valuable lesson on why error handling matters.
+
 The application includes error handling for common server issues:
 
 - **Port conflicts (EADDRINUSE):** If port 3000 is already in use, the application logs an error and exits gracefully
@@ -156,13 +158,13 @@ The logger combines two formatting options:
 
 #### Log Transports
 
-The logger uses three transport mechanisms to output log messages:
+The logger can use three transport mechanisms to output log messages:
 
 - **Console transport:** Logs all messages to the console for real‑time monitoring during development and debugging  
 - **Error log file (`logs/error.log`):** Captures only error‑level messages for focused troubleshooting  
 - **Combined log file (`logs/combined.log`):** Records all log messages regardless of severity level, providing a complete audit trail
 
-This multi‑transport approach ensures that logs are both visible during development and preserved for later analysis. Console transport was not used by the author in Task 2.
+Console transport was not used by the author in Task 2.
 
 ### Express Routes  
 
@@ -257,11 +259,9 @@ Counter operation logs follow these formats:
 [COUNTER] zeroed 0
 ```
 
-The prefix tags (`[ENDPOINT]` and `[COUNTER]`) make it easy to filter and search through log files when troubleshooting or analyzing application behavior.
+#### Server Logging
 
-#### Server Lifecycle Logging
-
-The main application also logs server lifecycle events:
+The main application also logs server events:
 
 ```
 [MAIN] Starting
@@ -382,7 +382,7 @@ The test suite is organized into four test files:
 
 **`counter.test.js`**
 
-- Tests the counter module in isolation  
+- Tests the counter module 
 - Verifies that `increase()`, `read()`, and `reset()` work correctly  
 - Ensures the counter maintains state between operations  
 - Tests edge cases and boundary conditions  
@@ -411,21 +411,13 @@ The test suite is organized into four test files:
 **`app.test.js`**
 
 - Integration tests that verify the entire application stack  
-- Uses Supertest or similar to make HTTP requests to the API  
-- Tests all three endpoints with various input scenarios  
-- Verifies JSON responses match expected formats  
+- Makes HTTP requests to the API  
+- Tests all three endpoints with various inputs
+- Verifies that JSON responses match expected formats  
 - Ensures logging occurs when endpoints are called  
 - Tests error handling and edge cases  
 
 ![SCR_APP_TEST](https://github.com/user-attachments/assets/45e12625-cac2-4687-bfbe-7049dce00a27)  
-
-#### Test Structure
-
-Each test file follows a consistent structure:
-
-- **Setup (`before` or `beforeEach`):** Prepares the test environment, such as resetting the counter state
-- **Test cases (`it` blocks):** Individual tests that verify specific behavior
-- **Teardown (`after` or `afterEach`):** Cleans up after tests, such as closing server connections
 
 The test suite ensures that:
 
