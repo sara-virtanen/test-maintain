@@ -7,7 +7,8 @@
 
 The purpose of this task is to create a tally counter REST API with Express, implement logging with Winston as specified in [Logging: Task 1](https://github.com/sara-virtanen/test-maintain/tree/main/Logging/Task1), then finally test the implementation. Manual testing was performed on the endpoints using Postman and the REST Client plugin for VSCode. Unit and integration tests on the modules and endpoints were implemented using Chai and Mocha.
 
-### Table of Contents
+<details>
+<summary>### Table of Contents</summary>
 
 - [Project Structure](#project-structure)
 - [Environment](#environment)
@@ -37,6 +38,8 @@ The purpose of this task is to create a tally counter REST API with Express, imp
     - [Running Tests](#running-tests)
     - [Test Coverage](#test-coverage)
     - [Test Structure](#test-structure)
+
+</details>
 
 ## Project Structure
 
