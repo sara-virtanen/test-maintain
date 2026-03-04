@@ -1,10 +1,10 @@
 {
-  "name": "logging_task1",
+  "name": "logging_task2",
   "version": "1.0.0",
-  "description": "Node.js application with Winstong logging.",
+  "description": "REST API tally counter with Express and Winston logging and testing with Mocha and Chai.",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: This task does not have tests implemented\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "Sara Virtanen",
@@ -13,6 +13,9 @@
     "node": "22.19.0"
   },
   "dependencies": {
+    "chai": "^6.2.2",
+    "express": "^4.18.2",
+    "mocha": "^11.7.5",
     "winston": "^3.11.0"
   }
 }

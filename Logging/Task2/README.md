@@ -28,18 +28,18 @@ test-maintain
 
 ### Actions Performed  
 
-- WIP
 - WIP  
-- WIP
-- WIP
+- WIP  
+- WIP  
+- WIP  
 
 ### Requirements / Versions Used
 
 - Node.js 22.19.0 + npm  
 - Express 4.18.2  
 - Winston 3.11.0  
-- Mocha x  
-- Chai x  
+- Mocha 11.7.5  
+- Chai 6.2.2  
 
 ## Setting Up The Environment
 
@@ -47,9 +47,11 @@ In my new project folder `Logging/Task2`, which is inside my git initialized rep
 
 `npm init -y`  
 
-### Installing Express 4.18.2 & Winston 3.11.0
+### Installing Express, Winston, Mocha and Chai
 
-`npm install --save express@4.18.2 winston@3.11.0`  
+To install the dependencies in the versions specified above, I ran:  
+
+`npm install --save express@4.18.2 winston@3.11.0 mocha@11.7.5 chai@6.2.2`  
 
 ## The Logging Application
 
