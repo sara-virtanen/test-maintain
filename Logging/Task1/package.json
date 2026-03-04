@@ -1,10 +1,10 @@
 {
   "name": "logging_task1",
   "version": "1.0.0",
-  "description": "Node.js application with Winstong logging.",
+  "description": "Node.js application with Winston logging.",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: This task does not have tests implemented\" && exit 1"
+    "test": "echo \"Error: This task does not have tests implemented.\" && exit 1"
   },
   "keywords": [],
   "author": "Sara Virtanen",
