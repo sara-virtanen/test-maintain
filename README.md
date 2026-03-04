@@ -15,7 +15,7 @@
 
 - [x] V - [Web GUI Testing](https://github.com/sara-virtanen/test-maintain/blob/main/Web_GUI_Testing/README.md) (2026-02-11)
 
-- [ ] VI - Logging
+- [x] VI - [Logging](https://github.com/sara-virtanen/test-maintain/tree/main/Logging) (2026-03-04)
 
 - [x] VII - Versioning and Licensing - Returned as PDF on Moodle (2026-02-20)
 
