@@ -11,17 +11,34 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 
 - [Project Structure](#project-structure)
 - [Environment](#environment)
+  - [Requirements / Versions Used](#requirements--versions-used)
+  - [Other Tools and Plugins](#other-tools-and-plugins)
+  - [Setting Up The Environment](#setting-up-the-environment)
+  - [Installing Dependencies](#installing-dependencies)
 - [Modules](#modules)  
-  - [Express](#express--hello-world)
+  - [Express](#express)
+    - [Server Error Handling](#server-error-handling)
+    - [Graceful Shutdown](#graceful-shutdown)
   - [Logging Configuration](#logging-configuration)
+    - [Log Transports](#log-transports)
   - [Express Routes](#express-routes)
+    - [Endpoint Definitions](#endpoint-definitions)
   - [Counter Behaviour](#counter-behaviour)
+    - [Counter Operations](#counter-operations)
+    - [Implementation Details](#implementation-details)
   - [Endpoint Logging](#endpoint-logging)
+    - [Log Message Format](#log-message-format)
+    - [Server Lifecycle Logging](#server-lifecycle-logging)
 - [Testing](#testing)  
   - [Manual Endpoint Testing](#manual-endpoint-testing)
+    - [Using Postman](#using-postman)
+    - [Using REST Client plugin for VSCode](#using-rest-client-plugin-for-vscode)
   - [Unit and Integration Testing](#unit-and-integration-testing)
+    - [Running Tests](#running-tests)
+    - [Test Coverage](#test-coverage)
+    - [Test Structure](#test-structure)
 
-## Project Structure  
+## Project Structure
 
 ```
 test-maintain
@@ -180,7 +197,7 @@ The router is exported and imported by `main.js`, where it is mounted at the roo
 
 ### Counter Behaviour  
 
-The `counter.js` module implements a simple in‑memory tally counter with three core operations. It maintains a private counter state using a module‑level variable initialized to 0.
+The `counter.js` module implements a simple in‑memory tally counter with three core operations. It maintains a private counter state using a module‑level variable initialized to 0. 
 
 #### Counter Operations
 
