@@ -243,7 +243,7 @@ The counter state is maintained in a closure‑like pattern using a module‑lev
 
 This simple implementation is suitable for demonstration and testing purposes. In a production environment, the counter state would typically be stored in a database to persist across server restarts and support multiple application instances.
 
-### Endpoint Logging  
+## Endpoint Logging  
 
 Each endpoint in the API logs two pieces of information whenever it is called:
 
