@@ -78,7 +78,7 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 I tested the Express "Hello World" app by OpenJS Foundation by creating an Express application in `main.js`.
 
-```
+```JavaScript
 const express = require('express')
 const app = express()
 const port = 3000
