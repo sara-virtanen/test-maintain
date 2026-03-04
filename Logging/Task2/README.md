@@ -341,6 +341,21 @@ To use this file:
 
 This approach provides a quick and convenient way to test the API without leaving the code editor.
 
+**Read the current counter value**  
+
+![SCR_12_RESTREAD](https://github.com/user-attachments/assets/20c4079f-0eaf-45be-ba53-dfa0785c1ae4)  
+
+
+**Increase the counter by one**  
+
+![SCR_10_RESTINCREASE](https://github.com/user-attachments/assets/2046425f-f7d8-4d88-a8e7-23d47d348203)  
+
+
+**Reset the counter to zero**  
+
+![SCR_10_RESTREAD](https://github.com/user-attachments/assets/94b88f9d-b3d7-4c4f-aa64-ac9e43e83285)  
+
+
 ### Unit and Integration Testing  
 
 Unit and integration tests are implemented using Mocha as the test runner and Chai for assertions.
