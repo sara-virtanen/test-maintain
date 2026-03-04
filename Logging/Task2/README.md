@@ -175,7 +175,7 @@ The logger can use three transport mechanisms to output log messages:
 
 Console transport was not used by the author in Task 2.
 
-### Express Routes  
+## Express Routes  
 
 The `routes.js` module defines three REST API endpoints for interacting with the tally counter. Each endpoint is implemented as a GET route that performs a specific counter operation and returns the result as JSON.
 
