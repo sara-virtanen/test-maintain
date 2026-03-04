@@ -257,11 +257,8 @@ These logs provide visibility into when the server starts, stops, or encounters 
 
 All logs are written to:
 
-- The console for real‑time monitoring  
 - `logs/combined.log` for all log levels  
-- `logs/error.log` for error‑level messages only
-
-This comprehensive logging approach makes it easy to trace application behavior, debug issues, and maintain an audit trail of all operations.
+- `logs/error.log` for error‑level messages only  
 
 ## Testing  
 
