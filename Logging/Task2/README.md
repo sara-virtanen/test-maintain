@@ -101,6 +101,7 @@ app.listen(port, () => {
 ![Browser localhost](https://github.com/user-attachments/assets/fcad2e43-2387-4044-8188-9e0f7419745f)  
 
 **Testing with Postman**  
+
 ![Postman GET](https://github.com/user-attachments/assets/afbab153-1973-47a0-b4a3-af37a25636ad)  
 
 After initial testing, I implemented the Express application in `main.js`. It imports the Express library, creates an application instance, and configures it to listen on port 3000.  
