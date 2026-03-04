@@ -184,7 +184,7 @@ All routes import the Express Router, the counter module, and the logger module.
 - **Endpoint access:** Records which endpoint was called  
 - **Counter operation:** Records the specific counter action and its result
 
-## Endpoint Definitions
+### Endpoint Definitions
 
 **GET `/counter-increase`**
 
@@ -206,7 +206,7 @@ All routes import the Express Router, the counter module, and the logger module.
 
 The router is exported and imported by `main.js`, where it is mounted at the root path (`/`).
 
-### Counter Behaviour  
+## Counter Behaviour  
 
 The `counter.js` module implements a simple in‑memory tally counter with three core operations. It maintains a private counter state using a module‑level variable initialized to 0. 
 
