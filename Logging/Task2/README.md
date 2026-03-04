@@ -14,12 +14,12 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 - [Modules](#modules)  
   - [Express - Hello World](#express--hello-world)
   - [Logging Configuration](#logging-configuration)
-  - Express Routes
-  - Counter Behaviour
-  - Endpoint Logging
+  - [Express Routes](#express-routes)
+  - [Counter Behaviour](#counter-behaviour)
+  - [Endpoint Logging](#endpoint-logging)
 - [Testing](#testing)  
-  - [Manual Endpoint Testing](#endpoint-testing)
-  - Unit and Integration Testing
+  - [Manual Endpoint Testing](#manual-endpoint-testing)
+  - [Unit and Integration Testing](#unit-and-integration-testing)
   - WIP  
   - WIP  
 
