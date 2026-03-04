@@ -9,23 +9,19 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 
 ### Table of Contents
 
-- [Project Structure](#project-structure)  
+- [Project Structure](#project-structure)
 - [Environment](#environment)
-
-**Modules**  
-
-- [Express - Hello World](#express--hello-world)
-- [Logging Application](#the-logging-application)
-- Express Routes
-- Counter Behaviour
-- Endpoint Logging
-
-**Testing**  
-
-- [Manual Endpoint Testing](#endpoint-testing)
-- Unit and Integration Testing
-- WIP  
-- WIP  
+- **Modules**
+  - [Express - Hello World](#express--hello-world)
+  - [Logging Application](#the-logging-application)
+  - Express Routes
+  - Counter Behaviour
+  - Endpoint Logging
+- **Testing** 
+  - [Manual Endpoint Testing](#endpoint-testing)
+  - Unit and Integration Testing
+  - WIP  
+  - WIP  
 
 ## Project Structure  
 
