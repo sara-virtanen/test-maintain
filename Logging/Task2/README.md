@@ -12,7 +12,7 @@ The purpose of this task is to create a tally counter REST API with Express, imp
 - [Project Structure](#project-structure)
 - [Environment](#environment)
 - [Modules](#modules)  
-  - [Express - Hello World](#express--hello-world)
+  - [Express](#express--hello-world)
   - [Logging Configuration](#logging-configuration)
   - [Express Routes](#express-routes)
   - [Counter Behaviour](#counter-behaviour)
@@ -74,9 +74,36 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 ## Modules
 
-### Express – Hello World
+### Express
 
-I started by creating a basic Express application in `main.js` that imports the Express library, creates an application instance, and configures it to listen on port 3000.
+I tested the Express "Hello World" app by OpenJS Foundation by creating an Express application in `main.js`.
+
+```
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+```
+
+**Running the Express app**  
+
+![Console Log](https://github.com/user-attachments/assets/bcef45ba-262a-45e0-b123-3d665728d06b)  
+
+**Navigating to `http://localhost:3000`**  
+
+![Browser localhost](https://github.com/user-attachments/assets/fcad2e43-2387-4044-8188-9e0f7419745f)  
+
+**Testing with Postman**  
+![Postman GET](https://github.com/user-attachments/assets/afbab153-1973-47a0-b4a3-af37a25636ad)  
+
+After initial testing, I implemented the Express application in `main.js`. It imports the Express library, creates an application instance, and configures it to listen on port 3000.  
 
 The application is structured to export the Express `app` instance without automatically starting the server. This design allows the application to be imported and tested without binding to a port, which is essential for running automated tests.
 
@@ -100,7 +127,7 @@ Both signals log a shutdown message and exit cleanly to ensure proper resource c
 
 ### Logging Configuration  
 
-I reused the `logger.js` configuration from Task 1, which was originally authored by Petri Rantanen for educational purposes. This module sets up a Winston logger instance that captures application events.
+I reused the `logger.js` configuration from Task 1, which was originally authored by Petri Rantanen, the instructor of this course. This module sets up a Winston logger instance that captures application events.
 
 The logger operates at the `"info"` level, which means it records all messages at the info level and every level above it in Winston's severity hierarchy (info, warn, error).
 
