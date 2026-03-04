@@ -77,36 +77,19 @@ To install the specified versions of Express, Winston, Mocha and Chai, I ran:
 
 I created a file called `logger.js` in the `src/` directory and configured it to create logs using Winston.  
 
-I defined the logger to operate at the `"info"` level, which means it records all messages at the info level and every level above it in Winston’s severity hierarchy. The logger applies timestamped JSON formatting to each entry and writes its output to multiple destinations. The console transport displays logs during development, while `error.log` stores only error‑level messages and `combined.log` records all logged events.  
-
-### Creating the Application and Implementing Logging  
-
-I created a main program file called `main.js` in the `src/` directory and integrated the logger into the application.  
-
-I used the logger to emit messages at different severity levels: `info`, `warn` and `error`.
-
-- `logger.log('info', ...)` and `logger.info(...)`  
-
-  - Record general operational messages that describe normal application behavior  
-
-- `logger.log('warn', ...)` and `logger.warn(...)`  
-
-  - Highlight situations that are unusual or potentially problematic but do not stop the application from running  
-
-- `logger.log('error', ...)` and `logger.error(...)`  
-
-  - Capture failures or issues that prevent part of the application from functioning correctly and may require immediate attention  
+I defined the logger to operate at the `"info"` level, which means it records all messages at the info level and every level above it in Winston’s severity hierarchy. The logger applies timestamped JSON formatting to each entry and writes its output to multiple destinations. The console transport displays logs during development (not used in Task 2), while `error.log` stores only error‑level messages and `combined.log` records all logged events.  
 
 ### Express Routes  
 
-
+I created a file called `routes.js` in the `src/` directory and configured it to 
 
 ### Counter Behaviour  
 
-
+I created a file called `counter.js` in the `src/` directory and configured it to  
 
 ### Endpoint Logging  
 
+I created a file called `main.js` in the `src/` directory and configured it to create logs using Winston.  
 
 ## Testing  
 
