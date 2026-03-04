@@ -57,9 +57,9 @@ In my new project folder `Logging/Task2`, which is inside my git initialized rep
 
 `npm init -y`  
 
-### Installing Express, Winston, Mocha and Chai
+### Installing Dependencies
 
-To install the specified versions of my dependencies, I ran:  
+To install the specified versions of Express, Winston, Mocha and Chai, I ran:  
 
 `npm install --save express@4.18.2 winston@3.11.0 mocha@11.7.5 chai@6.2.2`  
 
