@@ -137,7 +137,11 @@ Running a server in a console window and attempting to start it again in another
 The application includes error handling for common server issues:
 
 - **Port conflicts (EADDRINUSE):** If port 3000 is already in use, the application logs an error and exits gracefully
-- **General server errors:** Any other server errors are caught, logged, and result in a controlled shutdown
+- **General server errors:** Any other server errors are caught, logged, and result in a controlled shutdown  
+
+**Express server already running**
+
+![serverused](https://github.com/user-attachments/assets/5a467cad-9c98-4a16-8eee-df155b50c755)
 
 ### Graceful Shutdown
 
