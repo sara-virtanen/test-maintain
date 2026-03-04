@@ -145,7 +145,7 @@ The logger uses three transport mechanisms to output log messages:
 - **Error log file (`logs/error.log`):** Captures only error‑level messages for focused troubleshooting  
 - **Combined log file (`logs/combined.log`):** Records all log messages regardless of severity level, providing a complete audit trail
 
-This multi‑transport approach ensures that logs are both visible during development and preserved for later analysis.
+This multi‑transport approach ensures that logs are both visible during development and preserved for later analysis. Console transport was not used by the author in Task 2.
 
 ### Express Routes  
 
