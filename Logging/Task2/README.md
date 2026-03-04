@@ -368,13 +368,13 @@ To execute all tests, run:
 npm test
 ```
 
+This command runs Mocha, which automatically discovers and executes all test files in the `test/` directory.  
+
 To run a specific test, substitute `NAME_HERE` for the specific file name and then run:
 
 ```
 npx mocha test/NAME_HERE.test.js
 ```
-
-This command runs Mocha, which automatically discovers and executes all test files in the `test/` directory.
 
 #### Test Coverage
 
