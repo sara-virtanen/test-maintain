@@ -39,14 +39,14 @@ if (require.main === module) {
   // Handle graceful shutdown on SIGINT (ie. when the user uses Ctrl+C in the terminal)
 
   process.on("SIGINT", () => {
-    logger.info("[MAIN] Stopping");
+    logger.info("[MAIN] Stopping: User requested shutdown (SIGINT)");
     process.exit(0);
   });
 
   // Handle graceful shutdown on SIGTERM (ie. when the process receives a termination signal such as a kill command or container shutdown)
 
   process.on("SIGTERM", () => {
-    logger.info("[MAIN] Stopping");
+    logger.info("[MAIN] Stopping: Process received termination signal (SIGTERM)");
     process.exit(0);
   });
 }
